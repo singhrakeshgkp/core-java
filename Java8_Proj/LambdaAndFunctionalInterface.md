@@ -5,7 +5,7 @@
   - Represent as operation that accepts two input arguments and returns no result
   - Can be used while iterating hash map, can be used to compare two objects
 - Predicate
-  - gfg
+  - Represents a predicate (boolean-valued function) of one argument
   - 
 - 
   
