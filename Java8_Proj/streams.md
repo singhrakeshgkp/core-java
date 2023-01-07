@@ -1,5 +1,5 @@
 ### Consumer with Stream
 ### BiConsumer With Stream
-### Predicate with Stream
+### Stream with Predicate Function
  - Predicate with Stream
  - 
