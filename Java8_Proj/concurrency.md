@@ -16,7 +16,7 @@
   
 <p>
   
-  - Can be created using runnable instance or by directly extending thread class
+  - **Join** -> Current thread to wait for the calling thread(t.join()) to finish
   
 </p>
 </details>
