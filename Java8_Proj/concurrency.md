@@ -17,6 +17,10 @@
 <p>
   
   - **Join** -> Current thread to wait for the calling thread(t.join()) to finish
+  - **wait and notify** 
+   - ThreadWithWaitAndNotifyPubLisherConsumerExample
+   - ThreadWithWaitAndNotifyOddEvenApproach1
+   - ThreadWithWaitAndNotifyOddEvenApproach2
   
 </p>
 </details>
