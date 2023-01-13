@@ -28,12 +28,16 @@
 ### Adcanced Concept
 #
 <details>
-<summary><b>Executor Framework</b></summary>
+<summary><b>Executor Framework, Completable Future, ForkJoinPool</b></summary>
   
 <p>
   
-  - fdf
-  - gfd
+  - Executor
+  - Completable Future
+  - ForkJoinPool
+   - dsf
+   - sdfdsf
+  
   
 </p>
 </details>
