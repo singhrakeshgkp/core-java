@@ -1,8 +1,7 @@
 # Searching 
 ### Binary Search
-For more details [click here](/core-java/binarysearch.md)
+For more details [click here](/Java8_Proj/binarysearch.md)
 # Sorting
  ### Merge Sort
- For more details [click here](/core-java/mergesort.md)
+ For more details [click here](/Java8_Proj/mergesort.md)
  ### Quick Sort
-- 
