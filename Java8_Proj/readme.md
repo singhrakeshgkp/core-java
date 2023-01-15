@@ -4,8 +4,5 @@
 ### Java Date time
 ### Data Structure  
 
-<p>
-(for more details click  [here](https://github.com/singhrakeshgkp/core-java/edit/master/Java8_Proj/data_structure.md))/
+For More details click [here](/Java8_Proj/data_structure.md)
 
-    
-</p>
