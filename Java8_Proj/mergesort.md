@@ -1,7 +1,7 @@
 ### Merge Sort
 
 - Follow divide and conquer approach
-- worst case running time is nlogn
+- worst case running time is ``` nlogn ```
 - best case running time is 
 - 
 ```
