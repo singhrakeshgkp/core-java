@@ -32,10 +32,14 @@
   
 <p>
   
-  - Executor
+  - Type of pools
+    - FixexThreadPool
+    - CachedThreadPool
+    - ScheduledThreadPool
+    - SingleThreadPool
   - Completable Future
   - ForkJoinPool
-    - Create a java class ``` ForkJoinPoolExample ``` and  ``` RecursiveActionDemo ``` class extending ``` RecursiveAction  ``` class in the same java file
+    - Create a
     - 
   
   
