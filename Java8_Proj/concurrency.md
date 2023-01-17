@@ -39,7 +39,6 @@
     - SingleThreadPool
 </p>
 </details>
-<details>
 
  
 <details>
@@ -52,11 +51,10 @@
 </p>
 </details>
 
+  
+  
 <details>
-  
-  
-  
-  
+
 <summary><b>Completable Future</b></summary>
   
 <p>
