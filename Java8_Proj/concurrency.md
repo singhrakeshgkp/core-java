@@ -42,14 +42,25 @@
 
  
 <details>
-<summary><b>CountDownLatch</b></summary>
+<summary><b>CountDownLatch and Cyclic Barrier</b></summary>
   
 <p>
+  
+  <b>CountDownLatch</b></br>
   
   - Allow One thread to wait for one or more thread before start processing.
   - This kind of functionality can be imlemented using using wait and notify but here we need to write lot of boilerplate code
   - Once count reaches to zero you can not use count down latch anymore, for such kind of scenario we have another class called cyclicBarier
 </p>
+  
+<p>
+  <b>CyclicBarrier</b></br>
+  
+  - Allow One thread to wait for one or more thread before start processing.
+  - This kind of functionality can be imlemented using using wait and notify but here we need to write lot of boilerplate code
+  - Once count reaches to zero you can not use count down latch anymore, for such kind of scenario we have another class called cyclicBarier
+</p>
+  
 </details>
 
   
