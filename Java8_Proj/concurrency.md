@@ -33,20 +33,28 @@
 <p>
   
   - Type of pools
-    - FixexThreadPool
+    - FixedThreadPool
     - CachedThreadPool
     - ScheduledThreadPool
     - SingleThreadPool
-  - Completable Future
-  - ForkJoinPool
-    - Create a
-    - 
+</p>
+</details>
+<details>
+
+ 
+<details>
+<summary><b>CountDownLatch</b></summary>
   
+<p>
   
+  - Type of pools
+    
 </p>
 </details>
 
 <details>
+  
+  
   
   
 <summary><b>Completable Future</b></summary>
