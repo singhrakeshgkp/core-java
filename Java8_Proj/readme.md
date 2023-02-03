@@ -1,4 +1,5 @@
-# Core java
+
+# Core Java
 ### Java 8 Features
 - [Lambda and Functional interface](/Java8_Proj/LambdaAndFunctionalInterface.md)
 - [Stream API](/Java8_Proj/streams.md)
@@ -9,4 +10,6 @@ For More details click [here](/Java8_Proj/concurrency.md)
 ### Data Structure  
 
 For More details click [here](/Java8_Proj/data_structure.md)
+### Generics
+[Generics](/Java8_Proj/generics.md)
 
