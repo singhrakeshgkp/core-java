@@ -16,5 +16,10 @@
   - if multiple threads access above code, it won't work as expected (race condition may occurs)
   - for this CHM provides ```putIfAbsent``` method to associate a key with value.
 - <b>Put vs replace</b>
-  - 
-  - dsfd
+  - To replace the value we normaly write the code as given below.
+    ```
+    if (map.containsKey(key)) {
+     return map.put(key, value);
+   } 
+    ```
+  - In case of muti-threaded environment this above code can lead to race condition. For this CHM provides a method ```replace(key,value)`` to update existing key
