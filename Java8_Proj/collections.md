@@ -18,8 +18,8 @@
 - <b>Put vs replace</b>
   - To replace the value we normaly write the code as given below.
     ```
-    if (map.containsKey(key)) {
-     return map.put(key, value);
-   } 
+      if (map.containsKey(key)) {
+       return map.put(key, value);
+     } 
     ```
   - In case of muti-threaded environment this above code can lead to race condition. For this CHM provides a method ```replace(key,value)`` to update existing key
