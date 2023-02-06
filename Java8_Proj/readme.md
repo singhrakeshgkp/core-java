@@ -16,5 +16,6 @@ For More details click [here](/Java8_Proj/data_structure.md)
 ### Exception Handling
 
 ### Java Collections
-[Collection](/Java8_Proj/collections.md)
+- [Collection](/Java8_Proj/collections.md)
+- Collection [Hierarchy](/Java8_Proj/collections_hierarchy.jpg)
 
