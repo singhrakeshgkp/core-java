@@ -59,8 +59,8 @@
 
 <details><summary><b>LinkedHashMap</b></summary> 
  
- - Maintain the insertion order.
  - Allow one null key and multiple null value
+ - Maintain the insertion order.
 </details>
 
 <details><summary><b>TreeMap</b></summary> 
