@@ -21,6 +21,7 @@
 </details>
 
 <details><summary><b>LinkedHashSet impl->Set</b></summary> 
+ 
  - Default initial capacity is ```16``` and load factor  ```0.75 f```
  - Maintain the insertion order
  - Internal working of LinkedHashSet
