@@ -34,3 +34,38 @@
  - Takes log(n) time for basic operations such as add, remove, contains
  - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
 </details>
+
+
+# Map
+
+- <b>Initial Capacity :- </b> capacity is number of buckets (used to store key value pair) in the hash table, and the initial capacity is simply the capacity at the time  Hash table is created.
+- <b>Load Factor :- </b> The load factor is a measure of how full the Hash table is allowed to get before its capacity is automatically increased
+
+<details><summary><b>HashMap</b></summary> 
+ 
+ - Do not maintain the order
+ - Can store one null key and multiple null value
+ - Does not maintain insertion order
+ - Internal working of hash map
+   - Works on the principle of hashing. To understand hashing first we need to understand ```hash function, bucket and hash value```
+   - <b>Hash Function :- </b> hashCode function which returns an integer value is ```Hash Function```
+   - <b>Hash Value :- </b> An integer value returned by hash function
+   - <b>Bucket :- </b> Bucket can have multiple key value pairs, it simply uses linked list to store the objects.
+   - Uses hash value to determine the location where element need to be stored
+   - when we use map.get(obj) to get value, it uses the hash key and determine the location and then apply equal method to compare the key.
+ - Default load factor is ```0.75f``` and default initial capacity is ```16```
+ - Complexity O(1), O(n) or O(log n)
+</details>
+
+<details><summary><b>LinkedHashMap</b></summary> 
+ 
+ - Default initial capacity is ```16``` and load factor  ```0.75 f```
+</details>
+
+<details><summary><b>TreeSet impl->SortedSet->Set</b></summary> 
+ 
+ - Does not allow Null
+ - Takes log(n) time for basic operations such as add, remove, contains
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
