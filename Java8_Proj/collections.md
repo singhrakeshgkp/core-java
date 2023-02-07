@@ -60,11 +60,12 @@
 <details><summary><b>LinkedHashMap</b></summary> 
  
  - Maintain the insertion order.
+ - Allow one null key and multiple null value
 </details>
 
 <details><summary><b>TreeMap</b></summary> 
  
- - Does not allow Null
+ - Does not allow Null key
  - Sorts the elements in ASC order of keys
  - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
 </details>
