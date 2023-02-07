@@ -5,6 +5,9 @@
  
  - Do not maintain the order
  - Can store null value
+ - Take constant time for basic operation such as add, remove, contains or size.
+ - Uses shallow technique while cloning.
+ - Iterator returned by class are fail fast.
  - Internal Working of HashSet
    - It uses the MashMap internally, when we add any element in HashSet it either return true or false.
    - Since HashSet uses hash map internally, so when we say set.add(value), it internally execute ```map.put(e, PRESENT)==null```  this code.
