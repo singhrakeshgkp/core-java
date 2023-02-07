@@ -22,9 +22,14 @@
 
 <details><summary><b>LinkedHashSet impl->Set</b></summary> 
  - Default initial capacity is ```16``` and load factor  ```0.75 f```
+ - Maintain the insertion order
  - Internal working of LinkedHashSet
    - It internally uses LinkedHashMap
 </details>
 
 <details><summary><b>TreeSet impl->SortedSet->Set</b></summary> 
+ 
+ - Does not allow Null
+ - Takes log(n) time for basic operations such as add, remove, contains
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
 </details>
