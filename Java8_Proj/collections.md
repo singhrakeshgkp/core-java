@@ -59,13 +59,13 @@
 
 <details><summary><b>LinkedHashMap</b></summary> 
  
- - Default initial capacity is ```16``` and load factor  ```0.75 f```
+ - Maintain the insertion order.
 </details>
 
-<details><summary><b>TreeSet impl->SortedSet->Set</b></summary> 
+<details><summary><b>TreeMap</b></summary> 
  
  - Does not allow Null
- - Takes log(n) time for basic operations such as add, remove, contains
+ - Sorts the elements in ASC order of keys
  - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
 </details>
 
