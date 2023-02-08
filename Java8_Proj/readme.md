@@ -8,7 +8,7 @@
 For More details click [here](/Java8_Proj/concurrency.md)
 # Java Date time
 
-### Generics
+# Generics
 [Generics](/Java8_Proj/generics.md)
 
 # Exception Handling
