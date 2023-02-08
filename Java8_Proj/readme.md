@@ -6,6 +6,7 @@
 - [Method Reference](/Java8_Proj/method_reference.md) 
 # Java Concurrency
 For More details click [here](/Java8_Proj/concurrency.md)
+ [Interview QA](/Java8_Proj/concurrency_qa.md)
 # Java Date time
 
 # Generics
