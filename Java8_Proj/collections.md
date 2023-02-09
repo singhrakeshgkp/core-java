@@ -1,25 +1,20 @@
 # List
-
+- List interface is an ordered collection that allows us to add and remove element just like array.
 <details><summary><b>ArrayList</b></summary> 
  
- - Does not allow Null key
- - Sorts the elements in ASC order of keys
- - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+ - We can create resizable array, we can say its kind of dynamic array
 </details>
 
 <details><summary><b>LinkedList</b></summary> 
  
- - Does not allow Null key
- - Sorts the elements in ASC order of keys
- - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+ - Provide the functionality of linked list(doubly linked list) data structure.
 </details>
 
 
 <details><summary><b>Vector</b></summary> 
  
- - Does not allow Null key
- - Sorts the elements in ASC order of keys
- - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+ - Vector and Linked list provides the same functionality, the only difference is that each operation of vector is synchronized.
+ 
 </details>
 
 
