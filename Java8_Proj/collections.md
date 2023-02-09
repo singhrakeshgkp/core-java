@@ -1,3 +1,51 @@
+# List
+
+<details><summary><b>ArrayList</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
+<details><summary><b>LinkedList</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
+
+<details><summary><b>Vector</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
+
+<details><summary><b>Stack</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
+# Queue
+
+<details><summary><b>Priority Queue</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
+<details><summary><b>De-Queue</b></summary> 
+ 
+ - Does not allow Null key
+ - Sorts the elements in ASC order of keys
+ - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+</details>
+
 # Set
 - Used to store unique value.
 - <b>Initial Capacity :- </b> capacity is number of buckets (used to store key value pair) in the hash table, and the initial capacity is simply the capacity at the time  Hash table is created.
