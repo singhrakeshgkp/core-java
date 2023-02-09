@@ -21,5 +21,6 @@
 - Collections Questions and Answers [Q and A](/Java8_Proj/collections_QA.md) 
 
 # Data Structure  
-For More details click [here](/Java8_Proj/data_structure.md)
+- For More details click [here](/Java8_Proj/data_structure.md)
+- Data Structure [QA](/Java8_Proj/data_structureqa.md)
 
