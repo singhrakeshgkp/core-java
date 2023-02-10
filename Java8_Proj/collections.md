@@ -33,9 +33,16 @@
 
 <details><summary><b>Priority Queue</b></summary> 
  
- - Does not allow Null key
- - Sorts the elements in ASC order of keys
- - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+ - Provide the functionality of heap data structure.
+ - Unlike normal queue priority queue elements are retrieve in sorted order
+ - Lets say u want to retrieve the elements in ascendind order. In this case, the head of the priority queue will be the smallest element. Once this smallest is retrieved, the next smallest element will be head of the queue.
+ - Its important to note that elements of a priority queue may not be sorted. However, elements are always retrieve in sorted order.
+ - Method/operation supported
+   - add() -> Insert the elements to the queue, if the queue is full it throws exception
+   - offer() -> Insert the elements to the queue. If the queue is full, it returns false.
+   - Peek() -> used to access the elements from priority queue, this mehtod returns the head of the queue.
+   - remove()-> remove the specified elemetns from queue
+   - poll() -> returns and remove the head of the queue.
 </details>
 
 <details><summary><b>De-Queue</b></summary> 
