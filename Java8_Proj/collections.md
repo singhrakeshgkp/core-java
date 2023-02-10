@@ -13,16 +13,20 @@
 
 <details><summary><b>Vector</b></summary> 
  
- - Vector and Linked list provides the same functionality, the only difference is that each operation of vector is synchronized.
+ - Vector and Array list provides the same functionality. However, there exists some differences between them. the main difference is that each operation of vector is synchronized.
  
 </details>
 
 
 <details><summary><b>Stack</b></summary> 
  
- - Does not allow Null key
- - Sorts the elements in ASC order of keys
- - By default sort the elements in asc order for that it uses ```compareTo``` method for comparison.
+ - provide the functionality of stack data structure
+ - Elements are accessed in LIFO(last in first out) or FILO(first in last out) manner.
+ - Method supported
+   - Push - used to insert the element in the stack
+   - Pop  - Used to remove elements from stack
+   - Peek - Return an object from top of the stack. There are othr mehtod supported such as empty, search .. etc
+
 </details>
 
 # Queue
