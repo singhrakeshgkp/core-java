@@ -12,8 +12,14 @@ For example, Developer is making a read-only list using “Collections.unmodifia
 9. **What is the difference between Comparable and Comparator?**
 10. **What do you understand by fail-fast?**
 11. **How to make Java ArrayList Read-Only?**
-12. df
-13. dfdf
+12. **Synchronized HashMap vs HashTable?**<br/>
+ - <b>HashTable</b>
+   - HashTable returns iterator which is fail fast on concurrent modification
+   - Synchronization at object level, Every read write operation need to acquire lock
+ - <b>SynChronized HashMap</b>
+   - Synchronized HashMap returns iterator which is fail safe, do not produce concurrent modification exception when try to updte/add the elements in map
+   - Synchronization at object level, Every read write operation need to acquire lock
+13. 
 14. df
 15. fdf
 16. f
