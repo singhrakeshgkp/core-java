@@ -5,6 +5,21 @@
 - Abstract Factory
 - Builder
 - Prototype
+
+<details> <summary><b>Singleton</b></summary>
+<p>
+  
+ - Ensures that a class can only have one object
+ - How to create singleton class
+   - Approach 1
+     - fjd
+   - Approach 2
+ - Example 
+   - java api -> java.lang.Runtime#getRuntime()
+  
+</p>
+</details>
+
 # Structural
 
 - Adapter pattern
@@ -28,3 +43,6 @@
 - State Pattern
 - Interpreter Pattern and so on
 - .....etc
+
+<hr/>
+
