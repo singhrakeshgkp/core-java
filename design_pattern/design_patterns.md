@@ -16,6 +16,7 @@
      - Create a private attribute of class type
      - Create an static method that will allow (or create if not already instantiated) you to access the object.
    - Approach 2
+- Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
   
