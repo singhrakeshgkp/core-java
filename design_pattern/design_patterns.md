@@ -12,7 +12,9 @@
  - Ensures that a class can only have one object
  - How to create singleton class
    - Approach 1
-     - fjd
+     - Create private constructor
+     - Create a private attribute of class type
+     - Create an static method that will allow (or create if not already instantiated) you to access the object.
    - Approach 2
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
