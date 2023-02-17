@@ -4,8 +4,7 @@ package com.java.concurrent;
 public  class JavaThreadExample {
 
 	public static void main(String[] args) throws InterruptedException  {
-		System.out.println("before calling join from current thread");
-		System.out.println(Thread.currentThread().getState());
+		
 		RunnableDemo runnable = new RunnableDemo();
 		Thread t1 = new Thread(runnable);
 		Thread t2 = new Thread(runnable);
