@@ -25,7 +25,8 @@
   
   - <b>Approach 4</b> SingletonExample4- ThreadSafe
     - Simplest way to create thread safe singleton class is to make the global access method ```synchronized```
-    - The drawback of this technique is, it reduce the performance because of the cost associated with the synchronized method
+    - The drawback of this technique is, it reduce the performance because of the cost associated with the synchronized method. To avoid this double-checked locking principle is used refer ```SingletonExample5.java``` class.
+  
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
