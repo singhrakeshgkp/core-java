@@ -19,9 +19,13 @@
      - Create an static method that will allow client to access the object.
    - <b>Approach 2 </b>SingletonExample2- Static Block Initialization
      - It is similar to eager initialization the only difference is that the instance of the class created in static block that provides the opitons for exception handling.
-   - <b>Approach 3</b> Lazy Initialization
+   - <b>Approach 3</b> SingletonExample3- Lazy Initialization
      - Create instace in a global access method.
      - Drawback - When it comes to multithreaded application, it can cause issue when multiple threads are in the ```if``` block at the same time.- It destroy the singleton pattern/principle and both the thread will get different instance/object.
+  
+  - <b>Approach 4</b> SingletonExample4- ThreadSafe
+    - Simplest way to create thread safe singleton class is to make the global access method ```synchronized```
+    - The drawback of this technique is, it reduce the performance because of the cost associated with the synchronized method
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
