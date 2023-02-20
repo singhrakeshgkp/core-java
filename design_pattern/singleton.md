@@ -26,5 +26,10 @@
      - Drawback of this approach is it does not support lazy initialization.
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  
+ ### Singleton with Serialization
+ - Serialization can destroy the singleton pattern, to get get rid of it we can provide implementation of ```readResolve``` method.
+ - Refer SingletonExample7(we destroy the singleton pattern) + SingletonExample8(provided impl for readResolveMethod)
+ - The readResolve method is called when ObjectInputStream has read an object from the stream and is preparing to return it to the caller. ObjectInputStream checks whether the class of the object defines the readResolve method. If the method is defined, the readResolve method is called to allow the object in the stream to designate the object to be returned. The object returned should be of a type that is compatible with all uses. If it is not compatible, a ClassCastException will be thrown when the type mismatch is discovered.
+ 
  ### Example from Java api 
    - java api -> java.lang.Runtime#getRuntime()
