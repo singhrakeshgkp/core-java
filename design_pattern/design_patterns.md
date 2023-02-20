@@ -30,6 +30,10 @@
      - Prior to java 5, java memory model had a lot of issues, approaches above we used to fail in certain situation where multiple thread try to get the instace of the isngleton class simultaneously.
      - Bill Paugh introduced a new approach to create singleton class using static inner class.
      - Inner static class gets loaded in the memory only when someone call getInstance method.
+   - <b>Approach 5</b> SingletonExample6- Using Enum
+     - Reflection can be used to destroy the singleton patterns discussed in approach 1 to 5, to overcome this, we can use the enum to implement singleton pattern
+     - In case of enum java ensures that any enum value will be initiated only once in java program.
+     - Drawback of this approach is it does not support lazy initialization.
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
