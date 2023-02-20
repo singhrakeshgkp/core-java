@@ -25,5 +25,6 @@
      - In case of enum java ensures that any enum value will be initiated only once in java program.
      - Drawback of this approach is it does not support lazy initialization.
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
- - Example 
+ 
+ ### Example from Java api 
    - java api -> java.lang.Runtime#getRuntime()
