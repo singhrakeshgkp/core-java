@@ -26,7 +26,10 @@
    - <b>Approach 4</b> SingletonExample4- ThreadSafe
      - Simplest way to create thread safe singleton class is to make the global access method ```synchronized```
      - The drawback of this technique is, it reduce the performance because of the cost associated with the synchronized method. To avoid this double-checked locking principle is used refer ```SingletonExample5.java``` class.
-   - <b>Approach 5</b> SingletonExample5- ThreadSafe  
+   - <b>Approach 5</b> SingletonExample5- Bill Pugh Method
+     - Prior to java 5, java memory model had a lot of issues, approaches above we used to fail in certain situation where multiple thread try to get the instace of the isngleton class simultaneously.
+    - Bill Paugh introduced a new approach to create singleton class using static inner class.
+    - Inner static class gets loaded in the memory only when someone call getInstance method.
 - Where to use singleton patter? [Ans](https://stackoverflow.com/questions/3192095/where-exactly-the-singleton-pattern-is-used-in-real-application)
  - Example 
    - java api -> java.lang.Runtime#getRuntime()
