@@ -1,7 +1,7 @@
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
-- Factory
+- Factory for more details click [here](/design_pattern/factorypattern.md)
 - Abstract Factory
 - Builder
 - Prototype
