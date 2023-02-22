@@ -20,6 +20,7 @@ Define an interface for creating an object, but let subclass decide which class 
 specifying their concrete classes.
 </p>
 
+- For java impl refer ```AbstractFactoryPatternExample.java``` class 
 - <b>Use Case</b>
   - system should be independent o f how its products are created, composed,and represented.
   - a system should be configured with one of multiple families of products.
