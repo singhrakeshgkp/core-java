@@ -15,4 +15,11 @@ Define an interface for creating an object, but let subclass decide which class 
 - JaxBContext.createMarshaller, class.forName, charset.forname ..etc
 
 # Abstracto Factory Design Pattern
-- 
+<p>
+  Provide an interface for creating families of related or dependent objects without
+specifying their concrete classes.
+</p>
+- <b>Use Case</b>
+  - system should be independent o f how its products are created, composed,and represented.
+  - a system should be configured with one of multiple families of products.
+  
