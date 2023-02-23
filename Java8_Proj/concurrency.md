@@ -76,6 +76,10 @@
     - No support for exception handling.
     - Multiple future can not be chained together.
   - When two or more threads attempt to complete, completeExceptionally, or cancel completableFuture only one of them succeeds.
+  - <b>Operations</b>
+    - **complete() :-** Lets you manually complete the future with the given value.
+      - ```boolean results = comFuture.complete("hello world");```
+      - ```CompletableFutureExample1.java```
   
   
 </p>
