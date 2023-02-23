@@ -20,8 +20,10 @@
   - ```boolean results = comFuture.complete("hello world");```
   - ```CompletableFutureExample1.java```
   
-- <b>thenApply() :-</b> Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied function. 
-  - ```CompletableFutureExample2```
+- <b>thenApply() :-</b> Takes ```Function``` as argument and  Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied function. 
+    - ```CompletableFutureExample2```  
+- <b>accept() :- </b> Takes Consumer as argument and return void CompletionStage ```CompletionState<void>```
+   - ```CompletableFutureExample3```
   
 </p>
 </details>
