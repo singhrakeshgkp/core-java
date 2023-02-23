@@ -70,7 +70,13 @@
   
 <p>
   
-  - CompletableFuture
+  - CompletableFuture is extension of ```Future``` api, it addressed the following concerns of Future api
+    - There is no way to complete the future, we can only attempt to cancel the task
+    - The get method in ```Future``` is blocking operation
+    - No support for exception handling.
+    - Multiple future can not be chained together.
+  - When two or more threads attempt to complete, completeExceptionally, or cancel completableFuture only one of them succeeds.
+  
   
 </p>
 </details>
