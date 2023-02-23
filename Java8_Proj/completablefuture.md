@@ -20,7 +20,7 @@
   - ```boolean results = comFuture.complete("hello world");```
   - ```CompletableFutureExample1.java```
   
-- <b>thenApply() :-</b> Returns a new CompletionStage that, when this stage completesnormally, is executed with this stage's result as the argumentto the supplied function. 
+- <b>thenApply() :-</b> Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied function. 
   - ```CompletableFutureExample2```
   
 </p>
