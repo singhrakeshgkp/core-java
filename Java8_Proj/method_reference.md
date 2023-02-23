@@ -12,9 +12,9 @@ we use ``` ClassName::new ``` syntax for constructor reference.
     ArrayList::new;
     StudentDetails::new
   ```
-- Constructor reference example with one argument  ```ConstructorRefExample2```
-- Constructor reference example with two argument  ```ConstructorRefExample3```
-- Constructor reference example with var args  ```ConstructorRefExample4```
+- Constructor reference example with one argument  ```ConstructorRefExample2``` used ```Supplier``` Interface
+- Constructor reference example with two argument  ```ConstructorRefExample3``` used ```Function``` inteface
+- Constructor reference example with var args  ```ConstructorRefExample4``` used ```BiConSumer``` interface
 
 # Method Reference
 <p>
