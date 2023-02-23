@@ -20,5 +20,8 @@ we use ``` ClassName::new ``` syntax for constructor reference.
 <p>
   Java lambda expression allow us to define an anonymous method and treat it as an instance of Functional Interface. Similarly, the method reference allow us to do the same thing ,but with the existing method.
 </p>  
+
 ### Static Method Reference
+- ```MethodReferenceExample.java```
 ### Non Static Method Reference
+- ```MethodReferenceExample1.java```
