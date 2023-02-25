@@ -1,7 +1,10 @@
-# Imperative and Functional Style programming
+### Imperative and Functional Style programming
 - imperative style has accidental complexity.
 - Functional style has less complexity and easier to parallelize.
 - See ```ImpFunStyleEx1.java```
+
+### Parallel VS Parallel Stream
+- ```ParalletVsParallelStreamEx1.java```
 
 # CompletableFuture
 
