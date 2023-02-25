@@ -6,11 +6,13 @@
 - Functional style
   - Has less complexity and easier to parallelize.
   - Structure of sequential code is identical to the structure of concurrent code
-  - Easy to paralelize
+  - Easy to parallelize
 - See ```ImpFunStyleEx1.java```
 
 ### Stream VS Parallel Stream
 - ```StreamVsParallelStreamEx1.java```
+- ```StreamVsParallelStreamEx2.java```
+- Calling parallel and sequential both on the same pipeline ```StreamVsParallelStreamEx3.java```
 
 # CompletableFuture
 
