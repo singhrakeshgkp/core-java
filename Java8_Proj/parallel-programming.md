@@ -23,6 +23,13 @@
 			   .sequential()
 	      .forEach(number->System.out.println(number));
     ```
+- Streams Vs Reactive Streams
+  - Streams
+    - Sequential vs parallel
+    - entire pipeline is sequential or parallel(could not be one segment parallel and another is sequential)
+  - Reactive Streams
+    - Sync vs Async
+    - one segment could be sync and another could be async
 
 # CompletableFuture
 
