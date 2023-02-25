@@ -3,7 +3,7 @@
 - Functional style has less complexity and easier to parallelize.
 - See ```ImpFunStyleEx1.java```
 
-### Parallel VS Parallel Stream
+### Stream VS Parallel Stream
 - ```StreamVsParallelStreamEx1.java```
 
 # CompletableFuture
