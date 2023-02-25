@@ -13,6 +13,16 @@
 - ```StreamVsParallelStreamEx1.java```
 - ```StreamVsParallelStreamEx2.java```
 - Calling parallel and sequential both on the same pipeline ```StreamVsParallelStreamEx3.java```
+  - Nature of the execution of pipline depends on the operation we are performing before terminal operaton.
+  - For example following code snippet will perform sequention operation
+    ```
+    List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8);
+		numbers.stream()
+			   .parallel()
+			   .map(ele->process(ele))
+			   .sequential()
+	      .forEach(number->System.out.println(number));
+    ```
 
 # CompletableFuture
 
