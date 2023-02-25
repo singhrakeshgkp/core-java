@@ -1,6 +1,10 @@
 ### Imperative and Functional Style programming
-- imperative style has accidental complexity.
-- Functional style has less complexity and easier to parallelize.
+- imperative style
+  - Has accidental complexity.
+  - Structure of sequential code is very different from the structure of concurrent code.
+- Functional style
+  - Has less complexity and easier to parallelize.
+  - Structure of sequential code is identical to the structure of concurrent code
 - See ```ImpFunStyleEx1.java```
 
 ### Stream VS Parallel Stream
