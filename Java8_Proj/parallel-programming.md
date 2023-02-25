@@ -4,7 +4,7 @@
 - See ```ImpFunStyleEx1.java```
 
 ### Parallel VS Parallel Stream
-- ```ParalletVsParallelStreamEx1.java```
+- ```StreamVsParallelStreamEx1.java```
 
 # CompletableFuture
 
