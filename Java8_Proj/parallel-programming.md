@@ -57,7 +57,6 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 ### Computation intensive vs  IO Intensive
 - Computation Intensive
   - For this #(Number) of threads<=  #(number) of cores, otherewise you will end up with poor performance
-  -  fdsf
 - IO Intensive
   - #of threads may be greater than # of cores, but how many? Ans of this question is given below
     ```
@@ -66,9 +65,9 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 			   1- Blocking factor
 	   Where blocking factor shold be between 0 and 1 (0<=blocking factor <1)
     ```
-  - 
-  - df
-
+### Default No of threads
+   ```StreamVsParallelStreamEx8.java```
+   
 # CompletableFuture
 
 <p>
