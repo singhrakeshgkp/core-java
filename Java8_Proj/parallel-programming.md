@@ -46,8 +46,8 @@
 ### Parallel and reduce
 - Reduce works as depicted below
   ```
-  	   e1    e2   e3
-  	   |	 |     |
+  	 e1    e2   e3
+  	 |     |     |
   init -->Op--->Op--->Op
   It seems here operation is happening  sequentially but that is not the case.
   ```
