@@ -1,4 +1,4 @@
-### Imperative and Functional Style programming
+# Imperative and Functional Style programming
 - imperative style
   - Has accidental complexity.
   - Structure of sequential code is very different from the structure of concurrent code.
@@ -9,7 +9,7 @@
   - Easy to parallelize
 - See ```ImpFunStyleEx1.java```
 
-### Stream VS Parallel Stream
+# Stream VS Parallel Stream
 - ```StreamVsParallelStreamEx1.java```
 - ```StreamVsParallelStreamEx2.java```
 - Calling parallel and sequential both on the same pipeline ```StreamVsParallelStreamEx3.java```
@@ -30,7 +30,13 @@
   - Reactive Streams
     - Sync vs Async
     - one segment could be sync and another could be async
-
+### Some concept of thread
+- Before java 5, we were creating thread which is also a time consuming process(creating thread each time).
+- So java 5 introduces Executor Service so thread can be resued.
+- <b>Pool Induced DeadLock -></b> Lets say you have two thread in the pool
+  - u got one small problem, you give the problem to thread1, thread1 will handle it and give u the response back
+  - this time u got the problem, double in size to previous one. Break the problem and divide it between thread.
+  - What if u got 4X size problem, both thread will divide the problem and start waiting to each other to solve, this is where Pool Induced Deadlock will arrive
 # CompletableFuture
 
 <p>
