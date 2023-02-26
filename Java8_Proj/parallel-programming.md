@@ -44,6 +44,14 @@
 ### Parallel and Filter
 - ```StreamVsParallelStreamEx6.java``` This will produce the output same way as parallet with map produced(discussed in StreamVsParallelStreamEx3,4,5 )
 ### Parallel and reduce
+- Reduce works as depicted below
+  ```
+  	   e1    e2   e3
+  	   |	 |     |
+  init -->Op--->Op--->Op
+  It seems here operation is happening  sequentially but that is not the case.
+  ```
+  
 # CompletableFuture
 
 <p>
