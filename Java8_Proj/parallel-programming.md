@@ -59,7 +59,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
   - For this #(Number) of threads<=  #(number) of cores, otherewise you will end up with poor performance
   -  fdsf
 - IO Intensive
-  - # of threads may be greater than # of cores, but how many? Ans of this question is given below
+  - #of threads may be greater than # of cores, but how many? Ans of this question is given below
     ```
                      	   # cores
 	    #Thread <= ---------------------------------
