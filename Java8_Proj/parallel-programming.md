@@ -1,5 +1,5 @@
 # Imperative and Functional Style programming
-fefered https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
+referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - imperative style
   - Has accidental complexity.
   - Structure of sequential code is very different from the structure of concurrent code.
