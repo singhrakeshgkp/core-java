@@ -49,9 +49,9 @@
   	 e1    e2   e3
   	 |     |     |
   init -->Op--->Op--->Op
-  It seems here operation is happening  sequentially but that is not the case.
+  It seems here operation is happening  sequentially but it turns out this is not the really case
   ```
-  
+ - ```StreamVsParallelStreamEx7.java```
 # CompletableFuture
 
 <p>
