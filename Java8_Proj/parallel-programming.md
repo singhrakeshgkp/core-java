@@ -61,10 +61,10 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - IO Intensive
   - # of threads may be greater than # of cores, but how many? Ans of this question is given below
     ```
-                      # cores
-    #Thread <= ---------------------------------
-                   1- Blocking factor
-   Where blocking factor shold be between 0 and 1 (0<=blocking factor <1)
+                     	   # cores
+	    #Thread <= ---------------------------------
+			   1- Blocking factor
+	   Where blocking factor shold be between 0 and 1 (0<=blocking factor <1)
     ```
   - 
   - df
