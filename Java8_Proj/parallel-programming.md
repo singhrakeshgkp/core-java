@@ -67,7 +67,14 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
     ```
 ### Default No of threads
    ```StreamVsParallelStreamEx8.java```
-   
+### Configuring number of threads jvm wide
+  ```
+  -Djava.util.concurrent.ForkJoinPool.common.parallelism=50
+  ```
+  
+ ### Configuring number of threads Programatically
+  ```StreamVsParallelStreamEx9.java```
+  
 # CompletableFuture
 
 <p>
