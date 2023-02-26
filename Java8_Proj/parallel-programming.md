@@ -41,7 +41,8 @@
 - ```StreamVsParallelStreamEx4.java```
 - ```StreamVsParallelStreamEx5.java```
  
-
+### Parallel and Filter
+- ```StreamVsParallelStreamEx6.java``` This will produce the output same way as parallet with map(discussed in StreamVsParallelStreamEx3,4,5 )
 # CompletableFuture
 
 <p>
