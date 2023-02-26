@@ -36,7 +36,8 @@
 - <b>Pool Induced DeadLock -></b> Lets say you have two thread in the pool
   - u got one small problem, you give the problem to thread1, thread1 will handle it and give u the response back
   - this time u got the problem, double in size to previous one. Break the problem and divide it between thread.
-  - What if u got 4X size problem, both thread will divide the problem and start waiting to each other to solve, this is where Pool Induced Deadlock will arrive
+  - What if u got 4X size problem, both thread will divide the problem and start waiting to each other to solve, this is where Pool Induced Deadlock will arrive. To solve this problem java 7 introduces FJK(fork join pool) which uses Workstealing kind of algo.
+  - 
 # CompletableFuture
 
 <p>
