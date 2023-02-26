@@ -53,6 +53,22 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
   It seems here operation is happening  sequentially but it turns out this is not the really case
   ```
  - ```StreamVsParallelStreamEx7.java```
+
+### Computation intensive vs  IO Intensive
+- Computation Intensive
+  - For this #(Number) of threads<=  #(number) of cores, otherewise you will end up with poor performance
+  -  fdsf
+- IO Intensive
+  - # of threads may be greater than # of cores, but how many? Ans of this question is given below
+    ```
+                      # cores
+    #Thread <= ---------------------------------
+                   1- Blocking factor
+   Where blocking factor shold be between 0 and 1 (0<=blocking factor <1)
+    ```
+  - 
+  - df
+
 # CompletableFuture
 
 <p>
