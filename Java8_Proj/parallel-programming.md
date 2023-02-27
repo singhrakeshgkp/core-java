@@ -74,6 +74,8 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
   
  ### Configuring number of threads Programatically
   ```StreamVsParallelStreamEx9.java```
+  ```StreamVsParallelStreamEx10.java```
+  ```StreamVsParallelStreamEx11```
   
 # CompletableFuture
 
