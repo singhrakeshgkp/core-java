@@ -91,6 +91,37 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - No support for exception handling.
 - Multiple future can not be chained together.
 
+### Concept from Venkat Video
+- Asynchronous Execution
+  - Non Blocking -> We call a method and don't wait for result and proceed to do other works.
+- Drawback of future
+   ```
+   Future<?> future = methodCall();
+   ........
+   future.get();//No more future
+   ```
+- Lessions from java script
+  - callbacks
+    - Lacks of consistency (no one can tell if the first parameter will be data or error. Someone may consider error as first and data as second. There is no universal way)
+    - Hard to compose (method1->method2()->method3()...methodn(). each method send data through call back and asynchronous. its call callback hell) 
+    - Hard to deal with errors(sometime we might get the error before method is ready to fire the callback, sometime get the error through the call back and its hard to know which one its gonna do) so java script moved to use Promises
+  - promises
+    - Promises may be in one of three states ```resolve, reject or pending```
+      ```
+      Stream
+           dataflow
+      what is something goes wrong?
+      good luck
+     Promises
+        two channel
+	      data->.......
+	      error->......
+	-----f---------------------------------------------------data track
+	          \               /
+	------------f------------f--------------------------------error track(treat error as another form of data)
+	errors are first class citizens
+      ```
+       
 <details><summary><b>Operations</b></summary>
   
 <p>
