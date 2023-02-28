@@ -151,4 +151,10 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
  - CompletableFuture in java is promises in java script
   - Stages -> each stages Return CompletableFuture there is no end
   - One stage completes and another stage may run
-  - Creating completableFuture
+  - Creating completableFuture ```CompletableFutureExample4.java```
+  - Get Vs GetNow  ```CompletableFutureExample5.java```
+    - Get -> is a blocking, its very bad idea to use get(never ever use get)
+    - GetNow -> It says if completable future has resolved get me the result if not then it will return the supplied value in getNow(0) here it is zero. Its also not good idea to use GetNow.
+- Thread of execution
+  - If Future is finished its task -> it will not switch the thread anymore it will in run in main only ```CompletableFutureExample6.java```
+  - 
