@@ -87,12 +87,34 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 
 </p>
 
-- There is no way to complete the future, we can only attempt to cancel the task
-- The get method in ```Future``` is blocking operation
-- No support for exception handling.
-- Multiple future can not be chained together.
+- Limitatons of future
+  - There is no way to complete the future, we can only attempt to cancel the task
+  - The get method in ```Future``` is blocking operation
+  - No support for exception handling.
+  - Multiple future can not be chained together.
 
-### Concept from Venkat Video
+
+
+
+<details><summary><b>Operations</b></summary>
+  
+<p>
+  
+- **complete() :-** Lets you manually complete the future with the given value.
+  - ```boolean results = comFuture.complete("hello world");```
+  - ```CompletableFutureExample1.java```
+  
+- <b>thenApply() :-</b> Takes ```Function``` as argument and  Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied function. 
+    - ```CompletableFutureExample2```  
+- <b>accept() :- </b> Takes Consumer as argument and return void CompletionStage ```CompletionState<void>```
+   - ```CompletableFutureExample3```
+  
+</p>
+</details>
+
+
+
+# Completable Future Concept from Venkat Video
 - Asynchronous Execution
   - Non Blocking -> We call a method and don't wait for result and proceed to do other works.
 - Drawback of future
@@ -124,18 +146,9 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 		errors are first class citizens
       ```
        
-<details><summary><b>Operations</b></summary>
-  
-<p>
-  
-- **complete() :-** Lets you manually complete the future with the given value.
-  - ```boolean results = comFuture.complete("hello world");```
-  - ```CompletableFutureExample1.java```
-  
-- <b>thenApply() :-</b> Takes ```Function``` as argument and  Returns a new CompletionStage that, when this stage completes normally, is executed with this stage's result as the argument to the supplied function. 
-    - ```CompletableFutureExample2```  
-- <b>accept() :- </b> Takes Consumer as argument and return void CompletionStage ```CompletionState<void>```
-   - ```CompletableFutureExample3```
-  
-</p>
-</details>
+       
+ ### Completable Future
+ - CompletableFuture in java is promises in java script
+  - Stages -> each stages Return CompletableFuture there is no end
+  - One stage completes and another stage may run
+  - Creating completableFuture
