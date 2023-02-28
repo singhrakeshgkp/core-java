@@ -119,7 +119,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 		      data->.......
 		      error->......
 		-----f---------------------------------------------------data track
-			  \               /
+			 \                   /
 		------------f------------f--------------------------------error track(treat error as another form of data)
 		errors are first class citizens
       ```
