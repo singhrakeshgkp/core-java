@@ -159,6 +159,19 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
   - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will in run in main only 
   - If Future is not finished its task before it get to a point (such as future.thenAccept) -> Main thread will not wait and execution will happen in different thread.
 - changing pool  ```CompletableFutureExample7.java```
-- <b>Operations/Methods</b>
-  - 
-  - df
+- <b>Stream Vs CompletableFuture<b/>
+  ```
+  Stream					Completable Future
+  Pipeline					pipeline
+  lazy						lazy
+  zero one or more data				zero or one
+  only data channel				data channel and error channel
+  foreach					thenAccept
+  map						thenApply
+  ```
+	
+- <b>Operations/Methods</b> ```CompletableFutureExample8.java```
+  - thenAccept(consumer)
+    - Returns CopletableFuture<Void>(completable future of void), and the status of the operation such as success, fail..etc
+  - thenApply 
+    - use to tranform the data.
