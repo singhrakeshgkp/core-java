@@ -175,3 +175,5 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
     - Returns CopletableFuture<Void>(completable future of void), and the status of the operation such as success, fail..etc
   - thenApply 
     - use to tranform the data.
+- Creating pipeline and then completing ```CompletableFutureExample9```
+- Dealing with Exception ```CompletableFutureExample10```
