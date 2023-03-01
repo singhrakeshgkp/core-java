@@ -158,3 +158,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - Thread of execution ```CompletableFutureExample6.java```
   - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will in run in main only 
   - If Future is not finished its task before it get to a point (such as future.thenAccept) -> Main thread will not wait and execution will happen in different thread.
+- changing pool  ```CompletableFutureExample7.java```
+- <b>Operations/Methods</b>
+  - 
+  - df
