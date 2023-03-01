@@ -178,3 +178,9 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - Creating pipeline and then completing ```CompletableFutureExample9.java```
 - Dealing with Exception ```CompletableFutureExample10```
 - Use of completeExceptionally method ```CompletableFutureExample11.java```
+- Handling timeout (part of java 9)
+  - suceed on time out(completeOnTimeout) ```CompletableFutureExample12.java```
+  - fail on time out  ```CompletableFutureExample13.java```
+
+- Combine ```CompletableFutureExample14.java```
+- Compose ```CompletableFutureExample15.java```
