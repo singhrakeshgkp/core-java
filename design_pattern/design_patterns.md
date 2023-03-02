@@ -35,7 +35,7 @@
   - leads to duplication
   - many reasons to change
   - hard to debug.......
-
+- Don't violate open close principle ->
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
