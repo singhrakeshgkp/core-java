@@ -168,6 +168,9 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
   only data channel				data channel and error channel
   foreach					thenAccept
   map						thenApply
+  flatMap					thenCompose
+  function returns data - use map               function returns data use thenApply/thenAccept...etc
+  function returns stream - use flatmap         function returns CompletableFuture pipeline use thenCompose
   ```
 	
 - <b>Operations/Methods</b> ```CompletableFutureExample8.java```
