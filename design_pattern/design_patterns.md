@@ -26,7 +26,7 @@
   - Depend on interface rather than class
 - Keep it Dry(don't repeat yourself) -> don't duplicate  cod and effort.
 - Focus on single responsibility
-- Long Method -> Long methods are bad
+- Long Method -> Long methods are bad, as it says low cohesion and high coupling which is not good. some of the reason is given below why long methods are bad.
   - hard to test
   - hard to read
   - hard to remember
@@ -34,6 +34,7 @@
   - hard to reuse
   - leads to duplication
   - many reasons to change
+  - hard to debug.......
 
 # Creational
 
