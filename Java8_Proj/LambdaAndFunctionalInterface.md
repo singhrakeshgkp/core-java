@@ -18,12 +18,12 @@
    - parameter as an argument to a static method ```LambdaTest2.java```
    - parameter as a target ```LambdaTest3.java```
    - two parameters as an arguments ```LambdaTest4.java```
-     - order should be same, if its not you can not apply method references. As shown in the following example ```total,e`` order is not same so mehtod refercen can not be applied.
+     - order should be same, if its not you can not apply method references. As shown in the following example ```total, e``` order is not same so mehtod refercen can not be applied.
       ```
-       numbers.stream()
-		 		.reduce(0,(total,e)->Integer.sum(e,total)));// it should be total,e not e, total
+        numbers.stream()
+	      .reduce(0,(total,e)->Integer.sum(e,total)));// it should be total,e not e, total
       ```
-    - two parameters one as target the other one as argument ```LambdaTest5.java```
+   - two parameters one as target the other one as argument ```LambdaTest5.java```
      
  ### Limitations of Method Reference
  - You can not use them if you are doing data manupulation
