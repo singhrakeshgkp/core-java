@@ -22,7 +22,7 @@
 - GroupingBy  ```LambdaTest10.java```
 - Efficiency and Lazy Evalution ```LambdaTest11.java```
 - Stream Properties ```sorted, unsorted, ordered, unordered, distinct, not distinct,sized, unsized``` ```LambdaTest12.java```
-
+- Infinite Stream ```LambdaTest13.java```
 ### Stream Operations
 
  - allMatch, anyMatch
