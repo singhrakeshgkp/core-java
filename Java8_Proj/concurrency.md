@@ -66,12 +66,11 @@
   
 <details>
 
-<summary><b>Completable Future</b></summary>
+<summary><b>Parallel and Asynchronous programming with Stream and Completable future </b></summary>
   
 <p>
   
-  - CompletableFuture
-  
+  for more details click [here](/Java8_Proj/parallel-programming.md) For more details refer [you tube video](https://www.youtube.com/watch?v=0hQvWIdwnw4)
 </p>
 </details>
 
