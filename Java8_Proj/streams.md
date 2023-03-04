@@ -18,8 +18,8 @@
 - Collect
   - to list ```LambdaTest8.java```
   - to set  ```LambdaTest9.java```
-  - to map ```LambdaTest10.java```
- 
+  - to map ```LambdaTest9.java```
+- GroupingBy 
 
 ### Stream Operations
 
