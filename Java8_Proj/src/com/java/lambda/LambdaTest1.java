@@ -1,10 +1,5 @@
 package com.java.lambda;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.BiConsumer;
-
-
 public class LambdaTest1 {
 	
 /*Possible way to declare lambda expression
@@ -14,4 +9,52 @@ public class LambdaTest1 {
  * */
 	
 	public static void main(String[] args) {}
+	
+	public static void createThreadUsingLambda() {
+		Thread th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+		th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));
+
+	}
+/*	public static void createThreadWithAnonymousClass() {
+
+		
+		
+		Thread th = new Thread(new Runnable() {
+			public void run() {	
+				System.out.println("Thread running"+Thread.currentThread());
+			}
+		});
+		th = new Thread(new Runnable() {
+			public void run() {	
+				System.out.println("Thread running"+Thread.currentThread());
+			}
+		});
+		th = new Thread(new Runnable() {
+			public void run() {	
+				System.out.println("Thread running"+Thread.currentThread());
+			}
+		});
+		th = new Thread(new Runnable() {
+			public void run() {	
+				System.out.println("Thread running"+Thread.currentThread());
+			}
+		});
+		th = new Thread(new Runnable() {
+			public void run() {	
+				System.out.println("Thread running"+Thread.currentThread());
+			}
+		});
+	
+	}
+	
+	
+	*/
+	
+	
 }
