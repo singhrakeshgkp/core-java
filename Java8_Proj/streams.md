@@ -19,7 +19,9 @@
   - to list ```LambdaTest8.java```
   - to set  ```LambdaTest9.java```
   - to map ```LambdaTest9.java```
-- GroupingBy 
+- GroupingBy  ```LambdaTest10.java```
+- Efficiency and Lazy Evalution ```LambdaTest11.java```
+- Stream Properties ```sorted, unsorted, ordered, unordered, distinct, not distinct,sized, unsized``` ```LambdaTest12.java```
 
 ### Stream Operations
 
