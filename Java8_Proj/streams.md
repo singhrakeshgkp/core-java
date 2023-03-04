@@ -1,7 +1,7 @@
 # Stream
 - <b>Filter</b> -> equals to if operator takes Predicate<T>
 - <b>Map</b> -> used to transform values 
-- <b>Reduce</b> -> Both filter and map stay within their swimlane, however reduce cuts across swimlane
+- <b>Reduce</b> ```LambdaTest7.java``` -> Both filter and map stay within their swimlane, however reduce cuts across swimlane
  
  ```
    Filter          Map                Reduce(0.0)
@@ -14,7 +14,7 @@
    x4 ->            x4`         ->           +
  -------------------------------------        \
  ```
-  
+- Specialized Reduce ```LambdaTest7.java```
 
 ### Stream Operations
 
