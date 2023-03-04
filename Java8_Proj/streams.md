@@ -15,6 +15,11 @@
  -------------------------------------        \
  ```
 - Specialized Reduce ```LambdaTest7.java```
+- Collect
+  - to list ```LambdaTest8.java```
+  - to set  ```LambdaTest9.java```
+  - to map ```LambdaTest10.java```
+ 
 
 ### Stream Operations
 
