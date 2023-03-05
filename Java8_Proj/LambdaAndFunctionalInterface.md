@@ -23,7 +23,7 @@
         numbers.stream()
 	      .reduce(0,(total,e)->Integer.sum(e,total)));// it should be total,e not e, total
       ```
-   - two parameters one as target the other one as argument ```LambdaTest5.java```
+   - two parameters one as target the other one as argument ```LambdaTest6.java```
      
  ### Limitations of Method Reference
  - You can not use them if you are doing data manupulation
