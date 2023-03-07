@@ -156,7 +156,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
     - Get -> is a blocking, its very bad idea to use get(never ever use get)
     - GetNow -> It says if completable future has resolved get me the result if not then it will return the supplied value in getNow(0) here it is zero. Its also not good idea to use GetNow.
 - Thread of execution ```CompletableFutureExample6.java```
-  - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will in run in main only 
+  - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will run in main only 
   - If Future is not finished its task before it get to a point (such as future.thenAccept) -> Main thread will not wait and execution will happen in different thread.
 - changing pool  ```CompletableFutureExample7.java```
 - <b>Stream Vs CompletableFuture<b/>
