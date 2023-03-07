@@ -1,5 +1,5 @@
 # Stream
-- <b>Filter</b> -> equals to if operator takes Predicate<T>
+- <b>Filter</b> -> equals to ```if``` operator takes Predicate<T>
 - <b>Map</b> -> used to transform values 
 - <b>Reduce</b> ```LambdaTest7.java``` -> Both filter and map stay within their swimlane, however reduce cuts across swimlane
  
