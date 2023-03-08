@@ -1,5 +1,7 @@
 # Design Pattern By Venkat Subramaniam
-### Some important design concepts
+
+
+### Some important design concepts 1
 - Keep it Simple
   - Simple keeps you focussed
   - Simple solves only real problem we know about
@@ -36,6 +38,11 @@
   - many reasons to change
   - hard to debug.......
 - Don't violate open close principle ->
+
+### Some important design concept 2
+https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
+- fdsf
+- dsf
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
