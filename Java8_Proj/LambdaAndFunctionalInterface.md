@@ -21,7 +21,7 @@ Whats functional programming is?
 	
 ```
 ### Lambda VS. Closures
-- ```LambdaVSClosures1
+- ```LambdaVSClosures1```
 
 # Lambda
 ### Disadvantage of Anonymous inner classess
