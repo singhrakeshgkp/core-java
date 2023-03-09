@@ -51,6 +51,11 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
   - Abstract Factory->  
 - Lazyness Using Lambda Expression ```LazyEagerEvaluationEx1.java```
 - Decorator using Lambda expression
+  - Before understanding Decorator with Lambda first have to understand Function composition ```FunctionCompositionEx1.java```
+  - ```DecoratorWithLambdaPattern1.java```
+- Cascade Method pattern ```CascadeMethodPattern.java``` (its very much similar to builder but its not builder)
+- Creating fluent interfaces ```FluentInterfaceEx1.java```
+- Execute around method pattern ```ExecuteAroundMethodPattern1.java```
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
