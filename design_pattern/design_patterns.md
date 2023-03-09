@@ -42,7 +42,13 @@
 ### Some important design concept 2
 https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
 - fdsf
-- dsf
+- Lightweight Strategy Pattern -> Lambda are lightweight strategy ```LightweightStrategyPattern.java```
+- Factory Vs Abstract Factory ```FactoryPattern1.java```
+  - Factory Method-> A class or interface relies on a derived class to provide the implementation whereas base class provide the common implementation. 
+    - It uses Inheritance as design tool
+    - Interfaces and default method nicely fit in to Factory method pattern.
+  
+  - Abstract Factory->  
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
