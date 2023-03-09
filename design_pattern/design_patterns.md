@@ -50,6 +50,7 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
   
   - Abstract Factory->  
 - Lazyness Using Lambda Expression ```LazyEagerEvaluationEx1.java```
+- Decorator using Lambda expression
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
