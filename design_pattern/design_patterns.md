@@ -49,6 +49,7 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
     - Interfaces and default method nicely fit in to Factory method pattern.
   
   - Abstract Factory->  
+- Lazyness Using Lambda Expression->
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
