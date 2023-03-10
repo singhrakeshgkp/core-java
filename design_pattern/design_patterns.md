@@ -55,7 +55,8 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
   - ```DecoratorWithLambdaPattern1.java```
 - Cascade Method pattern ```CascadeMethodPattern.java``` (its very much similar to builder but its not builder)
 - Creating fluent interfaces ```FluentInterfaceEx1.java```
-- Execute around method pattern ```ExecuteAroundMethodPattern1.java```
+- Execute around method pattern ```ExecuteAroundMethodPattern1.java,  ExecuteAroundMethodPattern2.java``` Deals with object allocation and de-allocation from users of an object   -> Very useful pattern
+- Creating a closed hierarchy with sealed ```SealedInterfaceExample1.java```
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)
