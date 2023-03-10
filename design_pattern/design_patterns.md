@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
     4. There is a little reason to use optional<T> as a field
   
  ```
-- Internal Iterator VS External Iterator-> A functional pipeline offers internal iterator, it is less complex, easy to modify, easy to understand but....it is very important that we make the functional pipeline pure. Avoid shared mutable variables
+- Internal Iterator VS External Iterator ```IteratorPattern1.java```-> A functional pipeline offers internal iterator, it is less complex, easy to modify, easy to understand but....it is very important that we make the functional pipeline pure. Avoid shared mutable variables
 
 - Lightweight Strategy Pattern -> Lambda are lightweight strategy ```LightweightStrategyPattern.java```
 - Factory Vs Abstract Factory ```FactoryPattern1.java```
