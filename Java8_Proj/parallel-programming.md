@@ -3,7 +3,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - imperative style
   - Has accidental complexity.
   - Structure of sequential code is very different from the structure of concurrent code.
-  - Difficult to paralelize
+  - Difficult to parallelize
 - Functional style
   - Has less complexity and easier to parallelize.
   - Structure of sequential code is identical to the structure of concurrent code
@@ -43,7 +43,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
 - ```StreamVsParallelStreamEx5.java```
  
 ### Parallel and Filter
-- ```StreamVsParallelStreamEx6.java``` This will produce the output same way as parallet with map produced(discussed in StreamVsParallelStreamEx3,4,5 )
+- ```StreamVsParallelStreamEx6.java``` This will produce the output same way as parallel with map produced(discussed in StreamVsParallelStreamEx3,4,5 )
 ### Parallel and reduce
 - Reduce works as depicted below
   ```
@@ -156,7 +156,7 @@ referred https://www.youtube.com/watch?v=0hQvWIdwnw4    (Venkat Subramaniam)
     - Get -> is a blocking, its very bad idea to use get(never ever use get)
     - GetNow -> It says if completable future has resolved get me the result if not then it will return the supplied value in getNow(0) here it is zero. Its also not good idea to use GetNow.
 - Thread of execution ```CompletableFutureExample6.java```
-  - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will in run in main only 
+  - If Future is finished its task before it get to a point (such as future.thenAccept) -> it will not switch the thread anymore it will run in main only 
   - If Future is not finished its task before it get to a point (such as future.thenAccept) -> Main thread will not wait and execution will happen in different thread.
 - changing pool  ```CompletableFutureExample7.java```
 - <b>Stream Vs CompletableFuture<b/>

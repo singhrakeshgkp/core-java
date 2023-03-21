@@ -1,5 +1,7 @@
 # Design Pattern By Venkat Subramaniam
-### Some important design concepts
+
+
+### Some important design concepts 1
 - Keep it Simple
   - Simple keeps you focussed
   - Simple solves only real problem we know about
@@ -36,6 +38,41 @@
   - many reasons to change
   - hard to debug.......
 - Don't violate open close principle ->
+
+### Some important design concept 2
+https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
+- Optional and AntiPattern->Null is smell, Avoid Null as much as possible, A good design read like story and not like puzzle,it make the code obvious , Effective java says:- do not return null, instead return an empty collection. Benfit of not returning null is listed below.
+ ```
+  Benfits
+  --------------------------------------
+  you can iterate over empty collection without null check
+  But what if we have single value-> in the past we returned null, but now we should really return an optional<T>
+  
+  where to use optional?
+  --------------------------------
+    1. if a method return single value not collection
+    2. don't use optional if function is always gonna return some value
+    3. don't use optional as parameter to method, if needed use overloading instead
+    4. There is a little reason to use optional<T> as a field
+  
+ ```
+- Internal Iterator VS External Iterator ```IteratorPattern1.java```-> A functional pipeline offers internal iterator, it is less complex, easy to modify, easy to understand but....it is very important that we make the functional pipeline pure. Avoid shared mutable variables
+
+- Lightweight Strategy Pattern -> Lambda are lightweight strategy ```LightweightStrategyPattern.java```
+- Factory Vs Abstract Factory ```FactoryPattern1.java```
+  - Factory Method-> A class or interface relies on a derived class to provide the implementation whereas base class provide the common implementation. 
+    - It uses Inheritance as design tool
+    - Interfaces and default method nicely fit in to Factory method pattern.
+  
+  - Abstract Factory->  
+- Lazyness Using Lambda Expression ```LazyEagerEvaluationEx1.java```
+- Decorator using Lambda expression
+  - Before understanding Decorator with Lambda first have to understand Function composition ```FunctionCompositionEx1.java```
+  - ```DecoratorWithLambdaPattern1.java```
+- Cascade Method pattern ```CascadeMethodPattern.java``` (its very much similar to builder but its not builder)
+- Creating fluent interfaces ```FluentInterfaceEx1.java```
+- Execute around method pattern ```ExecuteAroundMethodPattern1.java,  ExecuteAroundMethodPattern2.java``` Deals with object allocation and de-allocation from users of an object   -> Very useful pattern
+- Creating a closed hierarchy with sealed ```SealedInterfaceExample1.java```
 # Creational
 
 - Singleton for more details click [here](/design_pattern/singleton.md)

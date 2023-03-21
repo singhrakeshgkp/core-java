@@ -1,3 +1,28 @@
+# Functional programming
+### Reference https://www.youtube.com/watch?v=15X0qFtBqiQ&t=69s  [Venkat]
+
+```
+ whats wrong with mutable state?
+   Error Prone
+   Hard to reason (hard to read and tell the reason for output)
+   Hard to make concurrent
+Whats functional programming is?
+  its means assignment less programming 
+  immutable state
+  functions as first class citizen
+  We can perform following things in functional programming
+        Imperative                               functional(higher order function)
+	can pass obj to function		 can pass function to function
+	can create obj within function		 can create function within function
+	can return obj from function		 can return function from function
+ Function with no side effects(have to be pure)
+   1. pure function does not change anything
+   2. Pure function does not depend anything that change
+	
+```
+### Lambda VS. Closures
+- ```LambdaVSClosures1```
+
 # Lambda
 ### Disadvantage of Anonymous inner classess
 - The more Anonymous classs class you will create, the more anonymous class you will have in the disk that results in you will end up with big jar files.
