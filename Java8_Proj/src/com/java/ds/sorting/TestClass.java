@@ -1,35 +1,34 @@
 package com.java.ds.sorting;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
-
 public class TestClass {
-
-	public static void mergeSort(int[] arr, int p, int r) {
-		
-	}
+    
+    public static void main(String[] args) {
 	
 	
-	private static void merge(int[] arr, int p, int q, int r) {
-		
-	}
+    }
+}
 
-
-	public static void main(String[] args) {
-		
-		Map<String, String> hashMap = new Hashtable<>();
-		hashMap.put("rakesh", "singh");
-		//hashMap= Collections.synchronizedMap(hashMap);
-	 Iterator<Entry<String, String>> itr =	hashMap.entrySet().iterator();
-	 while(itr.hasNext()) {
-		 Entry<String,String> entry = itr.next();
-		 System.out.println(entry.getKey());
-		// hashMap.put("rohan", "kumar");
-		 itr.remove();
-	 }
-	}
+class Employee{
+    private String name;
+    private String age;
+    
+    
+    public Employee(String name, String age) {
+	super();
+	this.name = name;
+	this.age = age;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getAge() {
+        return age;
+    }
+    public void setAge(String age) {
+        this.age = age;
+    }
+    
 }

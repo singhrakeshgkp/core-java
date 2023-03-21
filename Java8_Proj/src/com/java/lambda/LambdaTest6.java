@@ -6,7 +6,7 @@ import java.util.List;
 public class LambdaTest6 {
 	
 /* Method References
- * 1. Two Parameters one as target the other one as argument
+ * 1. function composition
  * */
 	
 	public static void main(String[] args) {
@@ -16,9 +16,9 @@ public class LambdaTest6 {
 		
 		 System.out.println(
 		 numbers.stream()
-		 		.map(String::valueOf)
-		 		//.reduce("",(carry,str)->carry.concat(str))); equivalent to .reduce("",String::concat));
-		 		  .reduce("",String::concat));
+	 		.filter(e->e%2 ==0)
+	 		.mapToInt(e->e*2)
+	 		.sum());
 		 		
 		
 	}

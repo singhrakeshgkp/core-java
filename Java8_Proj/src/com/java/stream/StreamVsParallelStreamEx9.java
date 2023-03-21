@@ -21,13 +21,13 @@ public class StreamVsParallelStreamEx9 {
 		 
 		long startTime = Instant.now().getEpochSecond();
 		double result =  IntStream.range(0, 2000)
-					     .parallel()
-						.mapToDouble(Test::computeSquireRoot)
-						.sum();
+					  .parallel()
+					  .mapToDouble(Test::computeSquireRoot)
+					  .sum();
 						
       long endTime = Instant.now().getEpochSecond();
-      System.out.println(endTime-startTime);
-		System.out.println(result);
+      System.out.println("time taken "+(endTime-startTime));
+		System.out.println("result "+result);
 	}
 
 	

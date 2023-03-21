@@ -19,17 +19,5 @@ public class StreamVsParallelStreamEx8 {
 	}
 	
 	
-	public static boolean oddEven(int element) {
-		try {
-	  System.out.println("processing element "+element+" "+Thread.currentThread().getName());
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		return true;
-	}
-	
-public static void printEle(int element) {
-	System.out.println("print "+ element+ " "+Thread.currentThread().getName());
-}
+
 }

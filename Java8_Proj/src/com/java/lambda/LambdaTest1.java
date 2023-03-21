@@ -8,7 +8,11 @@ public class LambdaTest1 {
  * 3. ()-> expression;
  * */
 	
-	public static void main(String[] args) {}
+	public static void main(String[] args) {
+	    
+	    
+	}
+	
 	
 	public static void createThreadUsingLambda() {
 		Thread th = new Thread(()->System.out.println("Running in separate thread "+Thread.currentThread()));

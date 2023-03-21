@@ -19,7 +19,7 @@ public class CompletableFutureExample6 {
 	
 	public static int compute(int num) {
 		
-		//sleep(1000);	
+		sleep(1000);	
 		System.out.println(num+"-----"+Thread.currentThread());
 		return num;
 	}
@@ -40,10 +40,10 @@ public class CompletableFutureExample6 {
 		
 		System.out.println("In main "+Thread.currentThread());
 		CompletableFuture<Integer>future =getCompFuture();
-		sleep(100);
+		//sleep(100);
 		future.thenAccept((data)->print(data));
 		System.out.println("Main End");
-		//sleep(2000);
+		sleep(2000);
 	}
 	
 

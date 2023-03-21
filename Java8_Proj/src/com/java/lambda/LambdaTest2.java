@@ -19,12 +19,7 @@ public class LambdaTest2 {
 	 }
 	 
 	 System.out.println("External iterators end");
-	 numbers.stream().map(String::valueOf)//
+	 numbers.stream().map(String::valueOf)// static reference
 	 .forEach(System.out::println);
-	}
-	
-	public static void createThreadUsingLambda() {
-		
-}
-	
+	}	
 }

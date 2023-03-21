@@ -8,7 +8,7 @@ public class StreamVsParallelStreamEx6 {
 
 	/*Continue from point 6 discussed in code{StreamVsParallelStreamEx5} class
 	 *7. Run it will Stream-> Output will be ordered 
-	 *8. Run it will parallel Stream and oforEachOrdered -> output will be ordered
+	 *8. Run it will parallel Stream and forEachOrdered -> output will be ordered
 	 *	 * */
 	public static void main(String[] args) {
 	 
