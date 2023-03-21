@@ -77,8 +77,14 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
 ##### Don't violate open close principle (OpenCloseExample1.java)
 - Software module should be open for extenstion but closed for modification. Abstraction and Polymorphism are the key to make this happen.
 - two make and enhacement you have two options
+  ```
+  Java classess 
+   OpenCloseExample1.java, OpenCloseExample2.java OpenCloseExample3.java, OpenCloseExample4.java OpenCloseExample5.java
+  ```
   1. change existin gcode.
   2. add a small new module of code.(recommended option)
+##### Liskov's Substution principle
+
 
 ### Some important design concept 2
 
