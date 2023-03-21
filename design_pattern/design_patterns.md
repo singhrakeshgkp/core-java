@@ -1,19 +1,26 @@
 # Design Pattern By Venkat Subramaniam
 
-
+https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
 ### Some important design concepts 1
 
 <hr/>
 
-- fdf
-  - Almost impossible to get it right the first time. It takes several iteration. Some people believe that software is never written it is re-written.
-  - 
-- Keep it Simple
+##### What is good design?,
+
+- Almost impossible to get it right the first time. It takes several iteration. Some people believe that software is never written it is re-written.
+- To create a better design first step is to let it go of the ego.
+- Be unemotional .
+- There are two kinds of people that are dangerous to work
+  1. who can't follow instructions.
+  2. who can only follow instructions.
+
+##### Keep it Simple
+- what is simplicity ?
   - Simple keeps you focussed
   - Simple solves only real problem we know about
   - Simple fails less
   - Simple is easier to understand.
-- complexity
+- complexity-> Complexity makes code difficult to change.
   - inherent -> Complexity from problem domain,nothing one can do about it.
   - accidental -> This kind of complexity comes form the solution that we are using to solve a problem.
 - Cohesion 
