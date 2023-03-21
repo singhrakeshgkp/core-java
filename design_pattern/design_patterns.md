@@ -40,25 +40,27 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   $N          <               $L- how probbable ? high- do it now if low then postpone.
   ```
  - 
-
-- Cohesion 
-  - Cohesion is where a piece of code narrow, focused and dones only one thing well
-  - Cohesion code is a code that is not taking several responsibility. such as dao handling code should be seperated with xml processing... etc
-- Coupling
-  - Coupling is degree of connectivity among things
-  - Coupling is essesntially what you depend on
-  - worst form of coupling is inheritance, it increases the coupling quite a bit.
-  - try to see if you can remove coupling
-  - can't remove all the dependencies.
-  - get rid of it
-  - make it loose instead of tight
+##### Cohesion 
+- Cohesion is where a piece of code narrow, focused and dones only one thing well
+- Cohesion code is a code that is not taking several responsibility. such as dao handling code should be seperated with xml processing... etc
+##### Coupling
+ - Coupling is degree of connectivity among things
+ - Coupling is essesntially what you depend on
+ - worst form of coupling is inheritance, it increases the coupling quite a bit.
+ - try to see if you can remove coupling
+ - can't remove all the dependencies.
+ - get rid of it
+ - make it loose instead of tight
     - loose -> depending on interface is loose coupling
     - tight -> depending on class in tight coupling
-- A good design should have high cohesion and low coupling
-- Dealing with coupling
-  - Depend on interface rather than class
-- Keep it Dry(don't repeat yourself) -> don't duplicate  cod and effort.
-- Focus on single responsibility
+ - A good design should have high cohesion and low coupling
+##### Dealing with coupling
+ - Depend on interface rather than class
+##### Keep it Dry(don't repeat yourself)
+- don't duplicate  cod and effort.
+- Every piece of knowledge in a system should have a single unambiguous authorative representation.
+- It reduces the cost of development.
+#### Focus on single responsibility 
 - Long Method -> Long methods are bad, as it says low cohesion and high coupling which is not good. some of the reason is given below why long methods are bad.
   - hard to test
   - hard to read
@@ -68,7 +70,8 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   - leads to duplication
   - many reasons to change
   - hard to debug.......
-- Don't violate open close principle ->
+##### Don't violate open close principle
+
 
 ### Some important design concept 2
 
