@@ -20,9 +20,27 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   - Simple solves only real problem we know about
   - Simple fails less
   - Simple is easier to understand.
-- complexity-> Complexity makes code difficult to change.
+  - Simple is not necessarily familiar. So as a develoer you have to go beyond familiar to explore simplicity.
+ 
+#### Complexity 
+- Complexity makes code difficult to change.A good design is the one that hides inherent complexity and eliminate accidental complexity.
+- Inherent and Accidental Complexity
   - inherent -> Complexity from problem domain,nothing one can do about it.
   - accidental -> This kind of complexity comes form the solution that we are using to solve a problem.
+### Think YAGNIy(you aren't gonna need it yet)
+ - Postpone the things until they are really really needed.
+ - Before implementing any thing consider following points
+  ```
+  when should i implement something?
+  how much do you know?
+  Cost of implementing?
+  Now                          Later
+  $N          >               $L - Postpone it
+  $N          =               $L- Postpone it
+  $N          <               $L- how probbable ? high- do it now if low then postpone.
+  ```
+ - 
+
 - Cohesion 
   - Cohesion is where a piece of code narrow, focused and dones only one thing well
   - Cohesion code is a code that is not taking several responsibility. such as dao handling code should be seperated with xml processing... etc
