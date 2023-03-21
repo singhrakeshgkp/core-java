@@ -70,8 +70,15 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   - leads to duplication
   - many reasons to change
   - hard to debug.......
-##### Don't violate open close principle
-
+- A function is small enough if you can see entire function in a window OR 
+- SLAP(single level of Abstraction Principle) 
+  - dont comment what, instead comment why (while using comment in code)
+- Use compose method pattern
+##### Don't violate open close principle (OpenCloseExample1.java)
+- Software module should be open for extenstion but closed for modification. Abstraction and Polymorphism are the key to make this happen.
+- two make and enhacement you have two options
+  1. change existin gcode.
+  2. add a small new module of code.(recommended option)
 
 ### Some important design concept 2
 
