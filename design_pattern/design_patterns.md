@@ -2,6 +2,11 @@
 
 
 ### Some important design concepts 1
+<hr/>
+
+- fdf
+  - Almost impossible to get it right the first time. It takes several iteration. Some people believe that software is never written it is re-written.
+  - 
 - Keep it Simple
   - Simple keeps you focussed
   - Simple solves only real problem we know about
@@ -40,6 +45,9 @@
 - Don't violate open close principle ->
 
 ### Some important design concept 2
+
+<hr/>
+
 https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
 - Optional and AntiPattern->Null is smell, Avoid Null as much as possible, A good design read like story and not like puzzle,it make the code obvious , Effective java says:- do not return null, instead return an empty collection. Benfit of not returning null is listed below.
  ```
