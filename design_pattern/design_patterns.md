@@ -83,7 +83,23 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   1. change existin gcode.
   2. add a small new module of code.(recommended option)
 ##### Liskov's Substution principle
-
+- Inheritance should be used only for substitutability.
+- If an object of B should be used anywhere an object of A is used then use inheritance.
+- If an object of B should be use an object of A, then use composition/delegation.
+- Inheritance demands more from developer than composition/delegation does.
+ ```
+  Services of the derived class should require no more and promise no less than the corresponding services of the base class.
+  now the question is why?
+  Ans is, The user of base class should be able to use an instance of derived class without knowing the difference.
+  
+  Examples.
+  Good
+  public vs protected in base vs derived class (its implemented on java framework label, you can not be more restrictive in derived class but u can be generous)->LiskovSubsExample1.java
+  derived function can't throw any new checked exceptions not thrown by base(unless new exception extend the old one thrown by base class)-> LiskovSubsExample2.java
+  collection of derived does not extend form collection of base. see LiskovSubsExample3.java
+  Bad
+  
+ ```
 
 ### Some important design concept 2
 
