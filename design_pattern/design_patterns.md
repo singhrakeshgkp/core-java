@@ -98,8 +98,15 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   derived function can't throw any new checked exceptions not thrown by base(unless new exception extend the old one thrown by base class)-> LiskovSubsExample2.java
   collection of derived does not extend form collection of base. see LiskovSubsExample3.java
   Bad
-  
+  Stack
  ```
+- Use composition or delegation instead of inheritance unless you want substitutabiliy. ```LiskovSubsExample4.java```
+
+##### Decouple using the dependency inversion principle
+- A class should not depends on another class, they both have to depends on abstraction (interface), prefer to use lambda expression only unless there is no option.
+
+##### Keep Interface cohesive with interface segregation principle
+- Interface should be cohesive and narrow focused
 
 ### Some important design concept 2
 
