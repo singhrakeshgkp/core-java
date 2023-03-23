@@ -75,6 +75,9 @@ If y is a node in the right subtree of x, then y.key>= x.key
   ```
   
  ##### Successor and Predecessor
+  ```
+  Successor-> successor of node x is the node 
+  ```
   
 </details>
 
