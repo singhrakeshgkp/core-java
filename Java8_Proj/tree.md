@@ -11,7 +11,7 @@ Let x be a node in binary search tree. If y is a node in the left substree of x,
 If y is a node in the right subtree of x, then y.key>= x.key
 ```
 
-##### Tree Traversal ```BinarySearchTreeTraversal.java```
+#### Tree Traversal ```BinarySearchTreeTraversal.java```
   - Inorder (print the key in sorted order)
   ```
     InOrder-Tree-Walk(x)
@@ -28,6 +28,16 @@ If y is a node in the right subtree of x, then y.key>= x.key
     3.    Preorder-Tree-Walk(x.left)
     4.    Preorder-Tree-Walk(x.right)
     ```
-  - PostOrder
+  - postorder
+    ```
+  - postorder-Tree-Walk(x)
+    1. if(x!=null)
+    2.   postorder-Tree-Walk(x.left)
+    3.   postorder-Tree-Walk(x.right) 
+    4.   print key 
+    ```
+  ##### Complexity
+ - Time Complexity O(n) 
+ - Space Complexity O(1) if we do not consider function calls else O(h) where h is the height of the tree.
 </details>
 
