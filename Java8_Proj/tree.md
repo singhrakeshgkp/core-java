@@ -5,7 +5,7 @@
 </summary>
   
 referred coreman book
-##### Binary search tree property
+#### Binary search tree property
 ```
 Let x be a node in binary search tree. If y is a node in the left substree of x, then y.key<= x.key. 
 If y is a node in the right subtree of x, then y.key>= x.key
@@ -41,6 +41,40 @@ If y is a node in the right subtree of x, then y.key>= x.key
  - Time Complexity O(n) 
  - Space Complexity O(1) if we do not consider function calls else O(h) where h is the height of the tree.
     
-
+#### Searching, Finding Min, Max, Predecessor, and successor
+  ##### Searching- recursive
+  ```
+  tree-search(x,k)
+  1. if x == null || k ==x.key
+  2.    return x
+  3. if k<x.key
+  4.    return tree-search(x.left,k)
+  5. else return tree-search(x.right,k)
+  ```
+ ##### Searching- iterative
+ ```
+  tree-search(x,k)
+  1. while x !=null && x.key != k
+  2.     if k < x.key
+  3.          x = x.left
+  4.     else x= x.right
+  5. return x
+ ```
+ 
+##### Minimum and Maximum
+  ```
+  Min(x)
+  1. while x.left != null
+  2.      x = x.left
+  3. return x
+  
+  Max(x)
+  1. while x.right != null
+  2.      x = x.right
+  3. return x
+  ```
+  
+ ##### Successor and Predecessor
+  
 </details>
 
