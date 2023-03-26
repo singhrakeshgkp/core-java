@@ -89,7 +89,7 @@ If y is a node in the right subtree of x, then y.key>= x.key
   Successor-> successor of node x is the node with the smallest key greater than x.key.
   
   Tree-Successor(x)
-  1. if x.right != null
+  1. if x.right != null  //if right subtree of the tree is nonempty
   2.    return Tree-Minimum(x.right)
   3. y=x.p
   4. while y!=null and x==y.right
