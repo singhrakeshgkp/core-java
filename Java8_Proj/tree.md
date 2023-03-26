@@ -7,6 +7,16 @@
 referred coreman book
 #### Binary search tree property
 ```
+  
+         15
+        /  \
+       6   18
+      /\   / \
+     3  7 17  20
+    /\   \
+   2  4  13
+         /
+        9
 Let x be a node in binary search tree. If y is a node in the left substree of x, then y.key<= x.key. 
 If y is a node in the right subtree of x, then y.key>= x.key
 ```
@@ -76,7 +86,11 @@ If y is a node in the right subtree of x, then y.key>= x.key
   
  ##### Successor and Predecessor
   ```
-  Successor-> successor of node x is the node 
+  Successor-> successor of node x is the node with the smallest key greater than x.key.
+  
+  Predecessor-> The inorder predecessor of a node in a Binary Search Tree is the node that comes before our key node
+  
+  example. 
   ```
   
 </details>
