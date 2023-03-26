@@ -88,7 +88,18 @@ If y is a node in the right subtree of x, then y.key>= x.key
   ```
   Successor-> successor of node x is the node with the smallest key greater than x.key.
   
+  Tree-Successor(x)
+  1. if x.right != null
+  2.    return Tree-Minimum(x.right)
+  3. y=x.p
+  4. while y!=null and x==y.right
+  5.        x = y
+  6.        y = y.p
+  7 return y
+  
   Predecessor-> The inorder predecessor of a node in a Binary Search Tree is the node that comes before our key node
+  
+  
   
   example. inorder traversal of given tree 2,3,4,6,7,9,13,15,17,18,20. predecessor of 4 is 3, successor of 15 is 17
   ```
