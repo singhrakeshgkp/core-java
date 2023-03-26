@@ -90,7 +90,7 @@ If y is a node in the right subtree of x, then y.key>= x.key
   
   Predecessor-> The inorder predecessor of a node in a Binary Search Tree is the node that comes before our key node
   
-  example. 
+  example. inorder traversal of given tree 2,3,4,6,7,9,13,15,17,18,20. predecessor of 4 is 3, successor of 15 is 17
   ```
   
 </details>
