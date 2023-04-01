@@ -6,3 +6,6 @@
   - GenericMethodExample12.1 -> UpperBound :- A method accepts a type and all its subclasses (example <? extends Number>).
   - GenericMethodExample12.2 -> Lower Bound:- A method accepts a type and all its superclasses. ```public static void validateTillStringType(Collection<? super String> collection) ```
 
+
+# Generics
+
