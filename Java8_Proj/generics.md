@@ -36,6 +36,7 @@
 - what are annotations? Annotations are a way to add some flavor or a behavior to a piece of code.
 - What's bad about them? 
 - Creating our own annotations?
+
   ```
   CustomAnnotationExample.java, Immutable.java, ImmutableAnnotationProcessor.java
   1. Compile annotations and roll them in an annotations.jar file
