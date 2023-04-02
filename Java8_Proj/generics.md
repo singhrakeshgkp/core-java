@@ -38,10 +38,8 @@
 - Creating our own annotations?
 
   ```
-  CustomAnnotationExample.java, Immutable.java, ImmutableAnnotationProcessor.java
-  1. Compile annotations and roll them in an annotations.jar file
-  2. Compile source code (here pass processors jar file path and processors name)
+   CustomAnnotationExample.java, Immutable.java, ImmutableAnnotationProcessor.java
+   1. Compile annotations and roll them in an annotations.jar file
+   2. Compile source code (here pass processors jar file path and processors name)
+
  ```
-
-
-
