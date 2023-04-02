@@ -14,5 +14,10 @@
 - Liskov substitution in Generics(definition- User of a base class should be able to use object of derived class without knowing the difference) 
   - Derived extends from base ```GenericsBVSEx4.java```. Derived is covariant of base
   - Generics of derived doesn't extend from generic of base. Generic of derived is not covariant of generic of base
-
+- Using Wildcards ```GenericsBVSEx5.java```
+- Generics and type erasures ```GenericsBVSEx6.java```
+- Effect of type erasures and related gotchas
+  - Parameterized type can not be primitive
+  - You can not instantiate parameterized type ```GenericsBVSEx7.java```
+   
 
