@@ -19,5 +19,15 @@
 - Effect of type erasures and related gotchas
   - Parameterized type can not be primitive
   - You can not instantiate parameterized type ```GenericsBVSEx7.java```
-   
+  - Multiple Parameterized interfaces restrictions. you can not have a class like below, as repeating interface is not allowed after type erasure it will become callable callable
+    ```
+     class Test implements Callable<Integer>, Callable<String>
+    ```
+  - Still can result in runtime exception ```GenericsBVSEx8.java```
+    - backward compatibility 
+    - unboxing
+  - Mixed with autoboxing, can get confusing
+  - static fields are not what we may think they are
+  - use caution with equality
+- Converting from non-generic to Generics
 
