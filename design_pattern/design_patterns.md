@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=llGgO74uXMI  <br/>
   $N          <               $L- how probbable ? high- do it now if low then postpone.
   ```
 ##### Cohesion 
-- Cohesion is where a piece of code narrow, focused and dones only one thing well
+- Cohesion is where a piece of code narrow, focused and does only one thing well
 - Cohesion code is a code that is not taking several responsibility. such as dao handling code should be seperated with xml processing... etc
 ##### Coupling
  - Coupling is degree of connectivity among things
