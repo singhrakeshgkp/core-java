@@ -11,7 +11,6 @@ public class LambdaTest3 {
 	
 	public static void main(String[] args) {
 
-		
 		 List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 		 numbers.stream()
 		 		.map(e->String.valueOf(e))
@@ -19,9 +18,5 @@ public class LambdaTest3 {
 		 		.map(String::toString)//nonStatic Reference similar to static reference
 		 		.forEach(System.out::println);
 	}
-	
-	
-	
-	
 	
 }

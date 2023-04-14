@@ -6,17 +6,16 @@ import java.util.stream.Stream;
 
 public class LambdaVSClosures1 {
 
-    /*Task 1 - Double the number and calculate its sum
+    /*Task 1 - Double the number
      * output - 4+6+8=18
-     *Task 2- same task1- with final variable
+     *Task 2- same task1- with non final variable
      * output - compilation error
-     * 
+     *
      *Task 3 Cheating java for function purity(immutability) using array index
      *output - 0,0,0 since it support lazy evaluation
-     * 
+     *
      * */
     public static void fun1() {
-	
 	List<Integer> numbers = Arrays.asList(2,3,4);
 	numbers.stream()
 	.map(e->e*2)
@@ -44,7 +43,7 @@ public static void fun2() {
     	List<Integer> numbers = Arrays.asList(2,3,4);
     	int[] factor = new int[] {3};
     	Stream<Integer> stream = numbers.stream()
-    		                 .map(e->e*factor[0]);//bad practice should not include var which is changing 
+    		                 .map(e->e*factor[0]);//bad practice should not include var which is changing
     	factor[0]= 0;
     	stream.forEach(System.out::println);
     	

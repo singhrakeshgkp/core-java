@@ -19,7 +19,7 @@ public class LambdaTest2 {
 	 }
 	 
 	 System.out.println("External iterators end");
-	 numbers.stream().map(String::valueOf)// static reference
-	 .forEach(System.out::println);
+	 numbers.stream().map(String::valueOf)// Parameter as an arguemnt to static method
+	 .forEach(System.out::println);// Parameter as an argument
 	}	
 }
