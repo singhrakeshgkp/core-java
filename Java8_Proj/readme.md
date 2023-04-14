@@ -24,3 +24,15 @@
 - For More details click [here](/Java8_Proj/data_structure.md)
 - Data Structure [QA](/Java8_Proj/data_structureqa.md)
 
+# Pattern Matching by Venkat
+- Benfits-> reduce verbosity, reduces if else statement.
+- Pattern matching with InstanceOf ```PatternMatcherEx1.java```
+- Type Matching
+- Null Matching
+- Matching with null and type
+-Dominance
+-Completness
+  - with sealed classes
+  - what if classes change?
+- Guarded Pattern
+
