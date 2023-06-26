@@ -1,6 +1,7 @@
 
 # Core Java
 # Java 8 Features
+<p> Lambda Expression, Functional Interface, Default Method, DateTime, SomeFeature indroduced in concurrency</p>
 - [Lambda and Functional interface](/Java8_Proj/LambdaAndFunctionalInterface.md)
 - [Stream API](/Java8_Proj/streams.md)
 - [Method Reference](/Java8_Proj/method_reference.md) 
