@@ -12,7 +12,7 @@
 - Data Structure
 - Java Programming Questions and Answers
 - Java 8 New Features
-- For more Details click [here](/Java8_Proj/readme.md)
+- For more Details click [here](/java-8proj/readme.md)
 
 ### Java 9 to java 20
 
