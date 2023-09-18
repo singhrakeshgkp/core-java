@@ -3,7 +3,7 @@
    - [Switch Expression](#switch-expression)
    - [Text Blocks](#text-blocks)
    - [Records](#Records)
-   - [Sealed classes and Interface](#sealed-classes-and-interfac)
+   - [Sealed classes and Interface](#sealed-classes-and-interface)
    - [Pattern Matching](#pattern-matching)
   
 ## Some Good Feature of Java So far
