@@ -3,28 +3,28 @@
 # Java 8 Features
 <p> Lambda Expression, Functional Interface, Default Method, DateTime, SomeFeature indroduced in concurrency</p>
 
-- [Lambda and Functional interface](/Java8_Proj/LambdaAndFunctionalInterface.md)
-- [Stream API](/Java8_Proj/streams.md)
-- [Method Reference](/Java8_Proj/method_reference.md) 
+- [Lambda and Functional interface](/java-8proj/LambdaAndFunctionalInterface.md)
+- [Stream API](/java-8proj/streams.md)
+- [Method Reference](/java-8proj/method_reference.md) 
 # Java Concurrency
-- For More details click [here](/Java8_Proj/concurrency.md)
-- [Interview QA](/Java8_Proj/concurrency_qa.md)
+- For More details click [here](/java-8proj/concurrency.md)
+- [Interview QA](/java-8proj/concurrency_qa.md)
 # Java Date time
 
 # Generics
-[Generics](/Java8_Proj/generics.md)
+[Generics](/java-8proj/generics.md)
 
 # Exception Handling
 
 # Java Collections
-- [Collection](/Java8_Proj/collections.md)
-- Collection [Hierarchy](/Java8_Proj/collections_hierarchy.jpg)
-- Concurrent Collections for more details click [here](/Java8_Proj/concurrent_collections.md) 
-- Collections Questions and Answers [Q and A](/Java8_Proj/collections_QA.md) 
+- [Collection](/java-8proj/collections.md)
+- Collection [Hierarchy](/java-8proj/collections_hierarchy.jpg)
+- Concurrent Collections for more details click [here](/java-8proj/concurrent_collections.md) 
+- Collections Questions and Answers [Q and A](/java-8proj/collections_QA.md) 
 
 # Data Structure  
-- For More details click [here](/Java8_Proj/data_structure.md)
-- Data Structure [QA](/Java8_Proj/data_structureqa.md)
+- For More details click [here](/java-8proj/data_structure.md)
+- Data Structure [QA](/java-8proj/data_structureqa.md)
 
 # Pattern Matching by Venkat
 - Benfits-> reduce verbosity, reduces if else statement.
