@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b538fa8-d0f6-4ed4-99c7-b09544e7ee70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/PatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/RecordExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/SealedClassEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/SealedInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/SwitchExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java20/feature/TextBlocksEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-20.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java20/feature/Feature1EnhanceInRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java20/feature/Feature1EnhanceInRecord.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b538fa8-d0f6-4ed4-99c7-b09544e7ee70" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "java-20",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/rakeshsingh/workspace/proj/core-java/java-20",
     "onboarding.tips.debug.path": "/Users/rakeshsingh/workspace/proj/core-java/java-20/src/Main.java",
     "project.structure.last.edited": "Project",

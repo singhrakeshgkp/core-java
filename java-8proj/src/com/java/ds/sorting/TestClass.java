@@ -11,25 +11,15 @@ import java.util.function.ToIntFunction;
 import java.util.stream.Stream;
 
 public class TestClass {
+
     public static void main(String[] args) {
+        Map<String,String> map = Map.of("1","rakesh","2","suresh");
+        map.forEach(new BiConsumer<String, String>() {
+            @Override
+            public void accept(String s, String s2) {
 
-        List<Fruit> fruits = new ArrayList<>();
-        fruits.add(new Banana());
-        List<Banana> bananaList = new ArrayList<>();
-
+            }
+        });
     }
 
-    public static void receiveBasketOfFruits(List<Fruit> fruits){
-        System.out.println("received basket of fruits"+fruits);
-    }
-
-    public static  <T> void copy(List<T> from, List<? super T> to){
-        for(T t: from){
-            to.add(t);
-        }
-    }
 }
-
-class Fruit {}
-class Banana extends Fruit{}
-class Orange extends  Fruit{}

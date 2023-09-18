@@ -12,16 +12,16 @@ public class GenericsBVSEx1 {
      * 
      * */
     public static void main(String[] args) {
-	List numbers = new ArrayList();
-	numbers.add(1);
-	numbers.add(2);
-	//numbers.add(2.0);
-	
-	int sum =0;
-	for(Object o : numbers) {
-	    sum += (int)o;
-	}
-	
-	System.out.println(sum);
-    }
+			List numbers = new ArrayList();
+			numbers.add(1);
+			numbers.add(2);
+			//numbers.add(2.0);
+
+			int sum = 0;
+			for (Object o : numbers) {
+				sum += (int) o;
+			}
+
+			System.out.println(sum);
+		}
 }
