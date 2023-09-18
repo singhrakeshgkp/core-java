@@ -4,6 +4,7 @@
    - [Text Blocks](#text-blocks)
    - [Records](#Records)
    - [Sealed classes and Interface](#sealsed-classes-and-interfac)
+   - [Pattern Matching](#pattern-matching)
   
 ## Some Good Feature of Java So far
 
@@ -26,3 +27,14 @@
 - Its final implicitly so no ofther classess can extend it.
 - Records can also be created in method, this type of record are know as local record
 - ```RecordExample.java```
+
+### Sealed Classes and Interface
+- If we want to restrict interface not to be implemented by any of the classess except permitted classes
+- If class implementing sealed interface is in same file then these calsses will be permitted by default. if now need to specify permit keyword.
+- Implementing class should be in the same package/module
+- ```SealedInterfaceEx.java```, ```SealedClassEx.java```
+
+### Pattern Matching
+- Pattern matching with instance of operator
+- Pattern matchin with switch
+- ```PatternMatching.java```
