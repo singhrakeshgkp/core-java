@@ -22,9 +22,6 @@
 - Concurrent Collections for more details click [here](/java-8proj/concurrent_collections.md) 
 - Collections Questions and Answers [Q and A](/java-8proj/collections_QA.md) 
 
-# Data Structure  
-- For More details click [here](/java-8proj/data_structure.md)
-- Data Structure [QA](/java-8proj/data_structureqa.md)
 
 # Pattern Matching by Venkat
 - Benfits-> reduce verbosity, reduces if else statement.
