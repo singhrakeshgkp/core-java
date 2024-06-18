@@ -1,3 +1,20 @@
+- [Array](#array)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Linked List](#linked-list)
+
+# Array
+# Stack
+# Queue
+# Linked List
+
+
+
+
+
+
+
+
 # Searching 
 ### Binary Search
 For more details [click here](/Java8_Proj/binarysearch.md)
