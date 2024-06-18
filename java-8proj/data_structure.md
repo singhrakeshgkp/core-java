@@ -23,7 +23,7 @@
 ### Terminology
 - Index---> In array elements are identified by their indexes, it usually start with 0
 - Element--> are items stored in the array, can be accessed by their index.
-- Length---> Array Length determined by number of lements it can contains. 
+- Length---> Array Length determined by number of ements it can contains. 
 
 
 ## Linked List
