@@ -1,12 +1,35 @@
 - [Array](#array)
+   - [Operations](#operations)
+   - [Types](#types)
+   - [Terminology](#terminology)
+- [Linked List](#linked-list)
 - [Stack](#stack)
 - [Queue](#queue)
-- [Linked List](#linked-list)
 
-# Array
-# Stack
-# Queue
-# Linked List
+
+## Array
+- Linear data structure
+- Stores collection of data of same data types
+- Elements are stored at contiguous memory location
+  ### Operations
+  - Insertion
+  - Deletion
+  - Traversal
+  - Searching
+ 
+ ### Types
+ - One dimentional
+ - Multi dimentional. ex matrix
+### Terminology
+- Index---> In array elements are identified by their indexes, it usually start with 0
+- Element--> are items stored in the array, can be accessed by their index.
+- Length---> Array Length determined by number of lements it can contains. 
+
+
+## Linked List
+## Stack
+## Queue
+
 
 
 
