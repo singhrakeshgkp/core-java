@@ -37,6 +37,12 @@
 ## Stack
 - Is a leaner data strucutre that follow a particular order LIFO/FILO
 ### Operations on stack
+- push, pop, peek, size, isempty
+### Applications of stack
+- Function calls
+- Expression Evaluation
+- Bucktracking
+- Udo/Redo operation
 
 ## Queue
 
