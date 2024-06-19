@@ -6,6 +6,7 @@
    - [Operations](#operations)
    - [Types](#types)
 - [Stack](#stack)
+   - [Operations](#operations)
 - [Queue](#queue)
 
 
@@ -24,7 +25,7 @@
   
 ## Linked List
 - Linked list is linear data structure that stores data in nodes, which are connected by pointers. Unlike arrays, in linked list data are not stored in contiguous memory location.
-- **Dynamic** Linked list can be dynamically resized by adding or deleting nodes dynamically
+- **Dynamic** Linked list can be resized by adding or removing nodes
 - **Non-Contiguous Memory Location** Nodes are stored on random memory locations and connected by pointers
 - **Sequential Access** Nodes can only be accessed sequently,starting from head of the list.
 ### Operations
@@ -33,7 +34,8 @@
 - Singly, Doubly and Circular
 
 ## Stack
-- Is a leaner data strucutre
+- Is a leaner data strucutre that follow a particular order LIFO/FILO
+### Operations
 
 ## Queue
 
