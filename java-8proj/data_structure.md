@@ -1,22 +1,23 @@
-- [Array](#array)
-   - [Operations](#operations)
-   - [Types](#types)
-   - [Terminology](#terminology)
-- [Linked List](#linked-list)
-   - [Operations](#operations)
-   - [Types](#types)
-- [Stack](#stack)
-   - [Operations](#operations)
-- [Queue](#queue)
+ - [DS](#DS)
+   - [Array](#array)
+      - [Operations on array](#operations-on-array)
+      - [Types of array](#types-of-array)
+      - [Terminology](#terminology)
+   - [Linked List](#linked-list)
+      - [Operations on linked list](#operations-on-linked-list)
+      - [Types of linked list](#types-of-linked-list)
+   - [Stack](#stack)
+      - [Operations on stack](#operations-on-stack)
+   - [Queue](#queue)
 
-
+# DS
 ## Array
 - Linear data structure
 - Stores collection of data of same data types
 - Elements are stored at contiguous memory location
-  ### Operations
+  ### Operations on array
   - Insertion, Deletion, Traversal, Searching
- ### Types
+ ### Types of array
  - One dimentional, Multi dimentional. ex matrix
 ### Terminology
 - Index---> In array elements are identified by their indexes, it usually start with 0
@@ -28,14 +29,14 @@
 - **Dynamic** Linked list can be resized by adding or removing nodes
 - **Non-Contiguous Memory Location** Nodes are stored on random memory locations and connected by pointers
 - **Sequential Access** Nodes can only be accessed sequently,starting from head of the list.
-### Operations
+### Operations on linked list
 - Creation(Creating new linked list), Insertion(adding new node in the specified position), Removal, Search, Traversal
-### Types
+### Types of linked list
 - Singly, Doubly and Circular
 
 ## Stack
 - Is a leaner data strucutre that follow a particular order LIFO/FILO
-### Operations
+### Operations on stack
 
 ## Queue
 
