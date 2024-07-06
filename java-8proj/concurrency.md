@@ -70,7 +70,7 @@
   
 <p>
   
-  for more details click [here](/Java-8Proj/parallel-programming.md) For more details refer [you tube video](https://www.youtube.com/watch?v=0hQvWIdwnw4)
+  for more details click [here](/java-8proj/parallel-programming.md) For more details refer [you tube video](https://www.youtube.com/watch?v=0hQvWIdwnw4)
 </p>
 </details>
 
