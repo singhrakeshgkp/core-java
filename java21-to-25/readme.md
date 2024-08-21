@@ -6,6 +6,8 @@
    - [Virtual Threads](#virtual-threads)
    - [Virtual Thread Scheduler](#Virtual-Thread-Scheduler)
    - [Continuation in java](#Continuation-in-java)
+     - [Uses of continuation](#uses-of-continuation)
+     - 
 
 
 ### References
@@ -30,6 +32,12 @@
 #### Continuation in java
 - Continuation can be viewed as a representation of current state of program
 - Allow to pause execution of a program and run it later.
+
+##### Uses of Continuation
+- Virtual/Green Threads
+- Coroutines
+- Exception handling
+- Generators
 ###### Note- Continuation api in java is not suppossed to used by application developer. Java uses it internally to impement virtual threads
 
 
