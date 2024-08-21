@@ -2,7 +2,7 @@
 
 - References[#references]
 - Virtual Thread[#virtual-thread]
-   - Continuation in java[Continuation-in-java]
+   - Continuation in java[#Continuation-in-java]
 
 
 ### References
