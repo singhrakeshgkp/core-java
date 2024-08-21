@@ -7,7 +7,7 @@
    - [Virtual Thread Scheduler](#Virtual-Thread-Scheduler)
    - [Continuation in java](#Continuation-in-java)
      - [Uses of continuation](#uses-of-continuation)
-     - 
+     - [Generator](#generator)
 
 
 ### References
@@ -30,6 +30,7 @@
 - A virtual thread scheduler mounts a virtual thread on a platform/carrier thread when virtual thread requires platform thread. And it unmounts virtual threads when virtual thread does not require platform thread.
   
 #### Continuation in java
+- Use VM ```--enable-preview --add-exports java.base/jdk.internal.vm=ALL-UNNAMED``` while compiling or running your application as continuation is not designed for developer use.
 - Continuation can be viewed as a representation of current state of program
 - Allow to pause execution of a program and run it later.
 
@@ -39,6 +40,6 @@
 - Exception handling
 - Generators
 ###### Note- Continuation api in java is not suppossed to used by application developer. Java uses it internally to impement virtual threads
-
-
+##### Generator
+- A Generator allows us to write a function that 'yields' values, these values are lazily retrieved. They can be iterated over a loop.
 
