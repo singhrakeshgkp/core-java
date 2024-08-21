@@ -1,14 +1,17 @@
 # Java 21 to java 25
 
 - [References](#references)
-- [Virtual Thread](#virtual-thread)
+- [Virtual Thread and continuation](#virtual-thread-and-continuation)
+   - [Platform threads](#platform-threads)
+   - [Virtual Threads](#virtual-threads)
+   - [Virtual Thread Scheduler](#Virtual-Thread-Scheduler)
    - [Continuation in java](#Continuation-in-java)
 
 
 ### References
 - https://www.youtube.com/watch?v=pwLtYvRK334&t=1917s
 - 
-### Virtual Thread
+### Virtual Thread and Continuation
 ##### Platform threads
 - Platform threads is thin wrapper over OS thread, VM needs to create a platform thread, it requests OS to create a new OS thread. Once OS thread gets created JVM create a platform thread.
 - Platform threads and OS threads has 1 to 1 mapping
