@@ -1,8 +1,8 @@
 # Java 21 to java 25
 
-- References[#references]
-- Virtual Thread[#virtual-thread]
-   - Continuation in java[#Continuation-in-java]
+- References [#references]
+- Virtual Thread [#virtual-thread]
+   - Continuation in java [#Continuation-in-java]
 
 
 ### References
