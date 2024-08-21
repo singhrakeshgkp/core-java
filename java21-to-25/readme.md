@@ -29,6 +29,7 @@
   
 #### Continuation in java
 - Continuation can be viewed as a representation of current state of program
+- Allow to pause execution of a program and run it later.
 ###### Note- Continuation api in java is not suppossed to used by application developer. Java uses it internally to impement virtual threads
 
 
