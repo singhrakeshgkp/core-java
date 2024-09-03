@@ -33,7 +33,7 @@
 ## Limitation of traditional synchronization
 - don't have flexibility to try for a lock without waiting
 - no preference can be specified, once lock is release any waiting thread can acquire the lock
-- Synchronized keyword can not be used accross the multiple method. **To overcome these limitations we can use java.util.confurrent.locks package.**
+- Synchronized keyword can not be used accross the multiple method. **To overcome these limitations we can use java.util.concurrent.locks package.**
 
 ## java util concurrent lock
 
