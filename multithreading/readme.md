@@ -35,7 +35,7 @@
 - no preference can be specified, once lock is release any waiting thread can acquire the lock
 - Synchronized keyword can not be used accross the multiple method. **To overcome these limitations we can use java.util.confurrent.locks package.**
 
-## java.util.cocurrent.lock
+## java util cocurrent lock
 
 
 ## Thread Group 
