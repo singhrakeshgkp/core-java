@@ -2,6 +2,11 @@
 - [Multithreading](#multithreading)
   - [ThreadLifecycle](#threadlifecycle)
   - [Thread Synchronization](#thread-synchronization)
+  - [Race Condition](#race-condition)
+  - [Dead Lock](#dead-lock)
+  - [Thread Group](#thread-group)
+  - [Q & A](q-&-a)
+
 
 # Multithreading
 ## ThreadLifecycle
@@ -23,5 +28,9 @@
 ## Thread Synchronization
 - **Synchronized(X.class)**----> Make sure there is exactly one thread in the block, We use class level locking to make static data member thread safe.
 - **Synchronized(this)**-----> ensures one thread per instance is in the block.
+
+## Thread Group 
+- We can group threads into thread gorup and pverfom certation action in that group such as checking active count, setting priority on group level.For thread group example refer ```ThreadGroupEx.java``` class
+## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
 - Blocked threads vs Blocking Threads ---> Blocked threads are those threads which are currently in ```Blocked``` state, Blocking threads are threads that caused other threads to enter into ```Blocked``` sate
