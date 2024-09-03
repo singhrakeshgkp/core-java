@@ -3,7 +3,7 @@
   - [ThreadLifecycle](#threadlifecycle)
   - [Thread Synchronization](#thread-synchronization)
      - [Limitation of traditional synchronization](#limitation-of-traditional-synchronization)
-  - [java.util.concurrent.lock](#java.util.cocurrent.lock) 
+  - [java.util.concurrent.lock](#java-util-cocurrent-lock) 
   - [Thread Group](#thread-group)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
