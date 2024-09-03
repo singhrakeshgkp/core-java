@@ -1,6 +1,7 @@
 # Table of contents
 - [Multithreading](#multithreading)
   - [ThreadLifecycle](#threadlifecycle)
+  - [Thread Synchronization](#thread-synchronization)
 
 # Multithreading
 ## ThreadLifecycle
@@ -17,7 +18,10 @@
    - **CyclicBarrier.await()**---> Threads waiting on cyclic barrier will be in waiting sate until the required number of thread arrived.
    - **CountDownLatch.await()**---> Threads waiting on countdownlatch enter the waiting state until the latch count reaches zero.
 5. **Timed_Waiting**----> wait(long timeout), sleep(long millis),LockSupport.parkNonos(nlong anos),Thread.join(long millis)......etc
-6. **Terminated**------>
+6. **Terminated**------> When thread completes its execution.
 
+## Thread Synchronization
+- **Synchronized(X.class)**----> Make sure there is exactly one thread in the block, We use class level locking to make static data member thread safe.
+- **Synchronized(this)**-----> ensures one thread per instance is in the block.
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
 - Blocked threads vs Blocking Threads ---> Blocked threads are those threads which are currently in ```Blocked``` state, Blocking threads are threads that caused other threads to enter into ```Blocked``` sate
