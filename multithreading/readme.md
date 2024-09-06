@@ -17,7 +17,7 @@
 # Multithreading
 ## Memory Model
 ### Field Visibility
-- refer [Diagrams](/multithreading/memory-model.jpg) diagram2
+- refer [Diagrams](/multithreading/memory-model.png) diagram2
 - Lets say we have two core cpu and two thread T1, and T2 running on core1 and core2. Lets say we have one variable x, T1 thread seting x=1 using some memthod lets say write and T2 is trying to read that value.
 - Here T2 Thread will not get value what T1 has set as its available in core1 local cache, in core2 local cache its still 0
 - Using ```volatile``` keyword in java we can overcome this situation, if volatile keyword is used with variable x and when x values changes to 1. It is flushed/pushed into shared cache. Now when anyother thread tries to read the value it will always get updated value
@@ -60,11 +60,12 @@
 ## Thread Group 
 - We can group threads into thread gorup and perform cretain action in that group such as checking active count, setting priority on group level.For thread group example refer ```ThreadGroupEx.java``` class
 ## Executor Service
-- There are four kind of executors, which are given below.
+- There are four kind of executors, which are given below. for [Diagram](/multithreading/executors.png) click here
 - 1.Fixed Thread Pool--> Lets say i have 100 taks, and Fixed thread pool of size 10. each thread will pick one taks at a time and execute it. ex T1 picks task1, after finishing it might pick task3 ... so on. Its uses blocking queue internally each thread perform two taks first fetching taks from queue and second executing the task
 - 2.Cached Thread Pool-->
 - 3.Scheduled Thread Pool-->
 - 4.Single Threaded Executor-->
+- **execute() vs submit() -->** with callable we should use executor.submit() not execute() as it submit() returns some value we should accept those value. ```Future``` is a placeholder in which value arrive. 
 
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
