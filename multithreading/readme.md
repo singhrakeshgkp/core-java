@@ -9,6 +9,8 @@
   - [java util concurrent lock](#java-util-concurrent-lock)
   - [Thread Group](#thread-group)
   - [Executor Service](#executor-service)
+  - [ForkJoinPool](#forkjoinpool)
+  - [Synchronous Queue](#synchronous-queue)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
   - [Q & A](q-&-a)
@@ -66,6 +68,10 @@
 - 3.Scheduled Thread Pool-->
 - 4.Single Threaded Executor-->
 - **execute() vs submit() -->** with callable we should use executor.submit() not execute() as it submit() returns some value we should accept those value. ```Future``` is a placeholder in which value arrive. 
+
+## ForkJoinPool
+- It breaks down the big tasks in to two taks solve them independently and finally join their output. Follow Kind of divide and conquer approach.
+## Synchronous Queue
 
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
