@@ -2,11 +2,13 @@
 - [Multithreading](#multithreading)
   - [Memory model](#memory-model)
      - [Field Visibility](#field-visibility)
+     - [Volatile vs Atomic Variables](#volatile-vs-atomic-variables)
   - [ThreadLifecycle](#threadlifecycle)
   - [Thread Synchronization](#thread-synchronization)
      - [Limitation of traditional synchronization](#limitation-of-traditional-synchronization)
-  - [java util concurrent lock](#java-util-concurrent-lock) 
+  - [java util concurrent lock](#java-util-concurrent-lock)
   - [Thread Group](#thread-group)
+  - [Executor Service](#executor-service)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
   - [Q & A](q-&-a)
@@ -23,7 +25,11 @@
   ```
   T1(a=1; b=1;c=1 x=1) T2(int p=x;q=a;r=b;s=c)
   ```
+### Volatile vs Atomic Variables
+- volatile solves visibility problem and Atomic variable solves synchronization problem
+- ex cpu =2, threads = T1, T2 in t1 and t2 we are doing value++(two operation read and write is happening), it might be possible that T1 reads the value before T2 write, in that case what ever value T2 will update will be lost and overriden by T1.
 
+   
 ## ThreadLifecycle
 - There are six sates of threads, at any point of time,a thread will be any one of these six states.
 1. **New** ---> When we create a thread but not started
@@ -53,6 +59,13 @@
 
 ## Thread Group 
 - We can group threads into thread gorup and perform cretain action in that group such as checking active count, setting priority on group level.For thread group example refer ```ThreadGroupEx.java``` class
+## Executor Service
+- There are four kind of executors, which are given below.
+- 1.Fixed Thread Pool--> Lets say i have 100 taks, and Fixed thread pool of size 10. each thread will pick one taks at a time and execute it. ex T1 picks task1, after finishing it might pick task3 ... so on. Its uses blocking queue internally each thread perform two taks first fetching taks from queue and second executing the task
+- 2.Cached Thread Pool-->
+- 3.Scheduled Thread Pool-->
+- 4.Single Threaded Executor-->
+
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
 - Blocked threads vs Blocking Threads ---> Blocked threads are those threads which are currently in ```Blocked``` state, Blocking threads are threads that caused other threads to enter into ```Blocked``` sate
