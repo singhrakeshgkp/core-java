@@ -15,7 +15,11 @@
 # Multithreading
 ## Memory Model
 ### Field Visibility
-- refer []
+- refer [Diagrams](/multithreading/memory-model.jpg) diagram2
+- Lets say we have two core cpu and two thread T1, and T2 running on core1 and core2. Lets say we have one variable x, T1 thread seting x=1 using some memthod lets say write and T2 is trying to read that value.
+- Here T2 Thread will not get value what T1 has set as its available in core1 local cache, in core2 local cache its still 0
+- Using ```volatile``` keyword in java we can overcome this situation, if volatile keyword is used with variable x and when x values changes to 1. It is flushed/pushed into shared cache. Now when anyother thread tries to read the value it will always get updated value
+### Happens before
 
 ## ThreadLifecycle
 - There are six sates of threads, at any point of time,a thread will be any one of these six states.
