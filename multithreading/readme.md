@@ -1,5 +1,7 @@
 # Table of contents
 - [Multithreading](#multithreading)
+  - [Memory model](#memory-model)
+     - [Field Visibility](#field-visibility)
   - [ThreadLifecycle](#threadlifecycle)
   - [Thread Synchronization](#thread-synchronization)
      - [Limitation of traditional synchronization](#limitation-of-traditional-synchronization)
@@ -11,6 +13,10 @@
 
 
 # Multithreading
+## Memory Model
+### Field Visibility
+- refer []
+
 ## ThreadLifecycle
 - There are six sates of threads, at any point of time,a thread will be any one of these six states.
 1. **New** ---> When we create a thread but not started
