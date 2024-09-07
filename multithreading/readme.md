@@ -10,6 +10,9 @@
   - [Thread Group](#thread-group)
   - [Executor Service](#executor-service)
   - [ForkJoinPool](#forkjoinpool)
+  - [Blocking vs Synchronous Queue](#blocking-vs-synchronous-queue)
+    - [Blocking Queue](#blocking-queue)
+    - [Synchronous Queue](#synchronous-queue)
   - [Synchronous Queue](#synchronous-queue)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
@@ -71,7 +74,10 @@
 
 ## ForkJoinPool
 - It breaks down the big tasks in to two taks solve them independently and finally join their output. Follow Kind of divide and conquer approach.
-## Synchronous Queue
+## Blocking vs Synchronous Queue
+- [Diagrams](/multithreading/blocking-and-synch-queue.png)
+### Blocking Queue
+### Synchronous Queue
 
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
