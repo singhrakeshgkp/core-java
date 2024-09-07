@@ -77,7 +77,15 @@
 ## Blocking vs Synchronous Queue
 - [Diagrams](/multithreading/blocking-and-sync-queue.png)
 ### Blocking Queue
+- Blocking queue is a thread safe data structure in which multiple producer and consuer thread can work at the same time. For simplicity diagram depict one producer and one consumer thread
+- Lets say we have one producer T1 and one consumer T2 thread, producer keep on adding element in the queue whereas consumer takes the elements from queue as shown in the diagram.
+- When blocking queue is empty and consumer thread tries to consume element from the queue, since there is no element in the queue, consumer thread will into block state. As soon as thre is an item/element get available in the queue, consumer thread gets unblocked and consume the item from the queue.
+- When blocking queue is full and producer thread tries to produce/add element in the queue, since there is no space in the queue, producer thread gets blocked. As soon as consumer thread consume item and slots become available, producer thread gets unblocked and it produces/pushes the item in the queue. 
 ### Synchronous Queue
+- Synchronous queue is same as blocking queue of size one. It behave same ways as blocking queue.
+- Synchronous queue is different with blocking queue in term of put operation.
+- When producer thread tries to put and item in the synchronous queue, even though the queue is empty the producer thread gets blocked. This is because the producer thread will wait for the consumer thread to come and get the element. As soon as there is a consumer thread which perform the take/consume operation producer thread gets unblocked and it will put/produce the item in the queue. This process will go on....Now consumer will unblocked and consume the item if item is available.
+- Perfect for hand off
 
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
