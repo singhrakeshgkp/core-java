@@ -98,6 +98,8 @@
 
   ```
   1 object per task-->loss of memory, 2. Global Object with No locks--->No thread safe issue, if use lock it will slow down performance.
+
+  4. Thread specific object depicted below.
   T1---------->1 object
   .....
   T20--------->20th Object
