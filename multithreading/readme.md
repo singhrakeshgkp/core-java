@@ -89,6 +89,7 @@
 
 ## Thread Local
 - Having a variable which is specific to a particular thread is called thread local.
+- One possible (and common) use is when you have some object that is not thread-safe, but you want to avoid synchronizing access to that object (I'm looking at you, SimpleDateFormat). Instead, give each thread its own instance of the object.
 ### Use case 1
 - Lets say we have one class Employee, and one method named getDOB(). In getDOB() method we are formatting date for that we have DateFormat object.
 - Now assume that we have 10k employee, and we are creating 10k taks and submitting that to Executor Service,in this scenario 10K ```DateFormat``` object will be created. Unnecessary memory will be allocated here.
