@@ -13,7 +13,7 @@
   - [Blocking vs Synchronous Queue](#blocking-vs-synchronous-queue)
     - [Blocking Queue](#blocking-queue)
     - [Synchronous Queue](#synchronous-queue)
-  - [Synchronous Queue](#synchronous-queue)
+  - [Thread Local](#thread-local)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
   - [Q & A](q-&-a)
@@ -87,6 +87,21 @@
 - When producer thread tries to put and item in the synchronous queue, even though the queue is empty the producer thread gets blocked. This is because the producer thread will wait for the consumer thread to come and get the element. As soon as there is a consumer thread which perform the take/consume operation producer thread gets unblocked and it will put/produce the item in the queue. This process will go on....Now consumer will unblocked and consume the item if item is available.
 - Perfect for hand off
 
+## Thread Local
+- Having a variable which is specific to a particular thread is called thread local.
+### Use case 1
+- Lets say we have one class Employee, and one method named getDOB(). In getDOB() method we are formatting date for that we have DateFormat object.
+- Now assume that we have 10k employee, and we are creating 10k taks and submitting that to Executor Service,in this scenario 10K ```DateFormat``` object will be created. Unnecessary memory will be allocated here.
+- To avoid unnecessary memory allocation we can define ```DateFormat``` object globally but hold on we can not use it with multiple thread as ```DateFormat``` is not thread safe so this approach is also not fit.
+- what if we use synchronization with Global ```DateFormat``` object----> This will slow down the performance
+- We can define ```DateFormat``` object depending on number of threads executing 10k taks, lets say 20 thread is executing 10k taks. so here we can have 20 DateFormat object for each thread this will solve above issues.
+
+  ```
+  1 object per task-->loss of memory, 2. Global Object with No locks--->No thread safe issue, if use lock it will slow down performance.
+  T1---------->1 object
+  .....
+  T20--------->20th Object
+  ```
 ## Q & A
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
 - Blocked threads vs Blocking Threads ---> Blocked threads are those threads which are currently in ```Blocked``` state, Blocking threads are threads that caused other threads to enter into ```Blocked``` sate
