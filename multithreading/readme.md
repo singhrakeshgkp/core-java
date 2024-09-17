@@ -104,7 +104,13 @@
   T1---------->1 object
   .....
   T20--------->20th Object
-  ```
-## Q & A
+   ```
+
+###  Advances Topic
+
+[CountDownLatch](/multithreading/count-down-latch.md)
+
+
+
 - How to find blocked state threads? Ans -> Using thread dump analysis, there are couple of tools that can we used for this purpose
 - Blocked threads vs Blocking Threads ---> Blocked threads are those threads which are currently in ```Blocked``` state, Blocking threads are threads that caused other threads to enter into ```Blocked``` sate
