@@ -16,6 +16,7 @@
   - [Thread Local](#thread-local)
   - [Race Condition](#race-condition)
   - [Dead Lock](#dead-lock)
+  - [Advanced Topics](#advanced-topics)
   - [Q & A](q-&-a)
 
 
@@ -106,9 +107,10 @@
   T20--------->20th Object
    ```
 
-###  Advances Topic
+##  Advanced Topics
+- [CountDownLatch](/multithreading/count-down-latch.md)
+- [CyclicBarrier](/multithreading/cuclic-barrier.md)
 
-[CountDownLatch](/multithreading/count-down-latch.md)
 
 
 
