@@ -110,7 +110,7 @@
 ##  Advanced Topics
 - [CountDownLatch](/multithreading/count-down-latch.md)
 - [CyclicBarrier](/multithreading/cyclic-barrier.md)
-- [Phaser](/multithreading/phaser.md)
+- [Phaser and Exchanger](/multithreading/phaser-and-exchanger.md)
 
 
 
