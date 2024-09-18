@@ -109,7 +109,7 @@
 
 ##  Advanced Topics
 - [CountDownLatch](/multithreading/count-down-latch.md)
-- [CyclicBarrier](/multithreading/cuclic-barrier.md)
+- [CyclicBarrier](/multithreading/cyclic-barrier.md)
 
 
 
