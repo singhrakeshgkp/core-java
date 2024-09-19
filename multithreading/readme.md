@@ -111,6 +111,7 @@
 - [CountDownLatch](/multithreading/count-down-latch.md)
 - [CyclicBarrier](/multithreading/cyclic-barrier.md)
 - [Phaser and Exchanger](/multithreading/phaser-and-exchanger.md)
+- [Semaphores](/multithreading/semaphores.md)
 
 
 
