@@ -75,8 +75,7 @@
 
 ## ForkJoinPool
 - It breaks down the big tasks in to two taks solve them independently and finally join their output. Follow Kind of divide and conquer approach.
-  <details>
-<summary><b>Fork/Join Framework</b></summary>
+
   
 <p>
   
@@ -92,7 +91,7 @@
   - Cancelling tasks
   
 </p>
-</details>
+
 
 ## Blocking vs Synchronous Queue
 - [Diagrams](/multithreading/blocking-and-sync-queue.png)
