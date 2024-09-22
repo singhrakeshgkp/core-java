@@ -64,33 +64,8 @@
 
   
   
-<details>
-
-<summary><b>Parallel and Asynchronous programming with Stream and Completable future </b></summary>
-  
-<p>
-  
-  for more details click [here](/java-8proj/parallel-programming.md) For more details refer [you tube video](https://www.youtube.com/watch?v=0hQvWIdwnw4)
-</p>
-</details>
 
 
-<details>
-<summary><b>Fork/Join Framework</b></summary>
-  
-<p>
-  
-  - createing Simple fork join Pool Program using ``` RecursiveAction ```
-    - Create a java class ``` ForkJoinPoolWtihRecursiveActionExample ``` and  ``` RecursiveActionDemoTask ``` class extending ``` RecursiveAction  ``` 
-    - Create a pojo class named item 
-    - write the required logic
-  - createing Simple fork join Pool Program using ``` RecursiveTask ```
-    - Create a java class ``` ForkJoinPoolWithRTExample ``` and  ``` RecursiveTaskDemo ``` class extending ``` RecursiveTask  ``` class
-    - Write the required logic
-  - Running several tasks asynchronously
-  - Executing throws the exception
-  - Cancelling tasks
-  
-</p>
-</details>
+
+
 
