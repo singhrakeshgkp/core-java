@@ -8,6 +8,8 @@
 ### DSA
 - For More details click [here](/java-8proj/data_structure.md)
 - Data Structure [QA](/java-8proj/data_structureqa.md)
+### Concurrency
+- [Concurrency](/jmultithreading/readme.md)
 ### Java 8
 
 - Java Concurrency
