@@ -6,7 +6,7 @@
 - [Lambda and Functional interface](/java-8proj/LambdaAndFunctionalInterface.md)
 - [Stream API](/java-8proj/streams.md)
 - [Method Reference](/java-8proj/method_reference.md)
-- Parallel and Asynchronous programming with Stream and Completable future. for more details click [here](/java-8proj/parallel-programming.md) 
+- [Parallel and Asynchronous programming with Stream and Completable future](/java-8proj/parallel-programming.md) 
 # Java Date time
 # Generics
 [Generics](/java-8proj/generics.md)
