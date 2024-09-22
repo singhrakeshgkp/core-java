@@ -75,6 +75,25 @@
 
 ## ForkJoinPool
 - It breaks down the big tasks in to two taks solve them independently and finally join their output. Follow Kind of divide and conquer approach.
+  <details>
+<summary><b>Fork/Join Framework</b></summary>
+  
+<p>
+  
+  - createing Simple fork join Pool Program using ``` RecursiveAction ```
+    - Create a java class ``` ForkJoinPoolWtihRecursiveActionExample ``` and  ``` RecursiveActionDemoTask ``` class extending ``` RecursiveAction  ``` 
+    - Create a pojo class named item 
+    - write the required logic
+  - createing Simple fork join Pool Program using ``` RecursiveTask ```
+    - Create a java class ``` ForkJoinPoolWithRTExample ``` and  ``` RecursiveTaskDemo ``` class extending ``` RecursiveTask  ``` class
+    - Write the required logic
+  - Running several tasks asynchronously
+  - Executing throws the exception
+  - Cancelling tasks
+  
+</p>
+</details>
+
 ## Blocking vs Synchronous Queue
 - [Diagrams](/multithreading/blocking-and-sync-queue.png)
 ### Blocking Queue
