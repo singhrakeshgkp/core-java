@@ -10,6 +10,8 @@
 - [Generics](/java-8proj/generics.md)
 # Java Date time
 # Exception Handling
+# Generics
+- Collection](/java-8proj/generics.md)
 # Java Collections
 - [Collection](/java-8proj/collections.md)
 - Collection [Hierarchy](/java-8proj/collections_hierarchy.jpg)
