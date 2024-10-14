@@ -57,14 +57,9 @@ Whats functional programming is?
 ### Function Composition
 - composing series of function or pipiline is called function compositon ```LambdaTest6.java```
 # Functional Interface
-- Consumer
-  - Represents an operation that accepts a single input and returns no result
-- BiConsumer 
-  - Represent as operation that accepts two input arguments and returns no result
-  - Can be used while iterating hash map, can be used to compare two objects
-- Predicate
-  - Represents a predicate (boolean-valued function) of one argument
-  - 
-- 
-  
 
+1. Consumer/BiConsumer----> accept one/two arguments and return nothing, has "void accept(T t)" method
+2. Supplier----> accept zero argument and return given type, has "T get();" method
+3. Predicate/BiPredicate------> takes one/two argument and return boolean value, has "boolean test(T t);" method
+4. Function/BiFunction-------> takes one argument and return supplied type. has " R apply(T t);" method
+5. UnaryOperator-----> uses where operand and return type is of same type. Specilized form of Function interface.
