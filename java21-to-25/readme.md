@@ -11,8 +11,7 @@
 
 
 ### References
-- https://www.youtube.com/watch?v=pwLtYvRK334&t=1917s
-- 
+
 ### Virtual Thread and Continuation
 ##### Platform threads
 - Platform threads is thin wrapper over OS thread, VM needs to create a platform thread, it requests OS to create a new OS thread. Once OS thread gets created JVM create a platform thread.
