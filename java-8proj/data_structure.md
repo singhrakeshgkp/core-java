@@ -9,6 +9,8 @@
    - [Stack](#stack)
       - [Operations on stack](#operations-on-stack)
    - [Queue](#queue)
+   - [references](#references)
+     
 
 # DS
 ## Array
@@ -70,4 +72,5 @@ For more details [click here](tree.md)
 # Dynamic Programming
   For more details [click here](/java8_proj/dynamicprogramming.md)
 
- 
+ # References
+ - 
