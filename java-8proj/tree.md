@@ -4,7 +4,7 @@
 ###  Binary Search Tree
 </summary>
   
-referred coreman book
+referred coreman book and https://www.youtube.com/watch?v=oSWTXtMglKE&t=238s
 #### Binary search tree property
 ```
   
