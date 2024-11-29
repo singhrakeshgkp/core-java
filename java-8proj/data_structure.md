@@ -63,6 +63,8 @@ For more details [click here](/Java8_Proj/binarysearch.md)
  ### Merge Sort
  For more details [click here](/Java8_Proj/mergesort.md)
  ### Quick Sort
+ ### Heap Sort
+ For more details [click here](heapsort.md)
  
 # Tree
 For more details [click here](tree.md)
