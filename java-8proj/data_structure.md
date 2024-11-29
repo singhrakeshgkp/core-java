@@ -63,7 +63,7 @@ For more details [click here](/Java8_Proj/binarysearch.md)
  ### Quick Sort
  
 # Tree
-For more details [click here](/Java8_Proj/tree.md)
+For more details [click here](/Java8-Proj/tree.md)
 
 # Greedy Algorithms
  For more details [click here](/Java8_Proj/greedyalgorithms.md)
