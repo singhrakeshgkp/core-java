@@ -1,5 +1,5 @@
  - [DS](#DS)
-   - [Array](#array)
+   - [Array And String](#array-and-string)
       - [Operations on array](#operations-on-array)
       - [Types of array](#types-of-array)
       - [Terminology](#terminology)
@@ -13,7 +13,8 @@
      
 
 # DS
-## Array
+## Array And String
+- For more details [click here](array-and-string.md)
 - Linear data structure
 - Stores collection of data of same data types
 - Elements are stored at contiguous memory location
@@ -47,15 +48,6 @@
 - Udo/Redo operation
 
 ## Queue
-
-
-
-
-
-
-
-
-
 # Searching 
 ### Binary Search
 For more details [click here](/Java8_Proj/binarysearch.md)
