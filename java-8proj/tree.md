@@ -106,3 +106,16 @@ If y is a node in the right subtree of x, then y.key>= x.key
   
 </details>
 
+
+
+
+
+<details><summary>
+  
+###  AVL Tree
+</summary>
+
+<p> Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.</p>
+  
+</details>
+
