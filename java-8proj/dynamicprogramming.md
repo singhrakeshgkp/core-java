@@ -7,7 +7,7 @@
 
  # Dynamic Programming
  ## 1. Momoization
-- Calculate 50th Number of fibonacci sequence.
+ - Calculate 50th Number of fibonacci sequence. refer ```CalculatingFibonacci.java```. To optimize fib function performance we have cached value, that will avoid repeated calculation of prev number.
 - Count the number of ways to move through 6X9 Grid.
 
 ## 2. Tabulation
