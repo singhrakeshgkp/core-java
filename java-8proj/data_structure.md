@@ -50,10 +50,10 @@
 ## Queue
 # Searching 
 ### Binary Search
-For more details [click here](/Java8_Proj/binarysearch.md)
+For more details [click here](binarysearch.md)
 # Sorting
  ### Merge Sort
- For more details [click here](/Java8_Proj/mergesort.md)
+ For more details [click here](mergesort.md)
  ### Quick Sort
  ### Heap Sort
  For more details [click here](heapsort.md)
@@ -62,9 +62,9 @@ For more details [click here](/Java8_Proj/binarysearch.md)
 For more details [click here](tree.md)
 
 # Greedy Algorithms
- For more details [click here](/Java8_Proj/greedyalgorithms.md)
+ For more details [click here](greedyalgorithms.md)
 # Dynamic Programming
-  For more details [click here](/java8_proj/dynamicprogramming.md)
+  For more details [click here](dynamicprogramming.md)
 
  # References
  - 
