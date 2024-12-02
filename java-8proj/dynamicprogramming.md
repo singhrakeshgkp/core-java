@@ -1,6 +1,22 @@
-# Dynamic Programming
 
-# Q & A
+[Dynamic programming](#dynamic-programming)
+ - [Memoization](#memoization)
+ - [Tabulation](#tabulation)
+ - [References](#references)
+ -  [Q & A](#q-&-a)
+
+ # Dynamic Programming
+ ## 1. Momoization
+- Calculate 50th Number of fibonacci sequence.
+- Count the number of ways to move through 6X9 Grid.
+
+## 2. Tabulation
+## References
+- Coreman Book
+- Random YouTube Video https://www.youtube.com/watch?v=oBt53YbR9Kk
+- Hacker Rack https://www.youtube.com/watch?v=sn0DWI-JdNA
+## Q & A
+
 1. CoinChangeProblem1-> No of ways change can be made
 2. CoinChangeProblem2-> No of minimum coins required to make the change
 3. CoinChangeProblem3-> No of minimum coins required to make the change with better time complexity
