@@ -12,7 +12,9 @@
  - Getting given sum number from the given list of numbers ```TargetedSum.java```
  - What numbers can be used to achieve given sum ```NumbersUsedInTargetSum.java```
  - Write a function that accept a target string and an arrays of string. The function should return boolean whether or not the target string can be constructed using array of string ```ConstructTargetStr.java```
-- Count the number of ways to move through 6X9 Grid refer ```GridTraveler.java```
+ - Write a functin that accept a targetStr and an arrays of string and  returns number of wasy we can construct the targetStr. refer ```CountConstructTargetStr.java```
+ - Write a function that accept a targetStr and an arrays of String and returns all the possible combination used to construct the targetStr. refer ```AllConstructTargetStr.java```
+
 
 ## 2. Tabulation
 ## References
