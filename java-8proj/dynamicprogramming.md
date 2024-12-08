@@ -19,8 +19,8 @@
 ## 2. Tabulation
 - Calculate 50th Fib Number using tabulation method refer ```FibTabulationEx.java```
 - Ways to Move on a grid from start to end refer ```TabulationGridTraveler.java```
-- Getting Given Sum from given numbers in array. refer ```TabulationTargetedSum.java```
-- 
+- Getting Given Sum from given numbers in array. refer ```TabulationTargetSum.java```
+- Get the list of numbrs used to obtain given sum. refer ```TabulationTargetHowSum.java```
 ## References
 - Coreman Book
 - Random YouTube Video https://www.youtube.com/watch?v=oBt53YbR9Kk
