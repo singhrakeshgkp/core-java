@@ -21,6 +21,7 @@
 - Ways to Move on a grid from start to end refer ```TabulationGridTraveler.java```
 - Getting Given Sum from given numbers in array. refer ```TabulationTargetSum.java```
 - Get the list of numbrs used to obtain given sum. refer ```TabulationTargetHowSum.java```
+- Get the min numbers can be used to get the target sum. refer ```TabulationBestSum.java```
 ## References
 - Coreman Book
 - Random YouTube Video https://www.youtube.com/watch?v=oBt53YbR9Kk
