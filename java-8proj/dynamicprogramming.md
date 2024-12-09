@@ -22,6 +22,8 @@
 - Getting Given Sum from given numbers in array. refer ```TabulationTargetSum.java```
 - Get the list of numbrs used to obtain given sum. refer ```TabulationTargetHowSum.java```
 - Get the min numbers that can be used to get the target sum. refer ```TabulationBestSum.java```
+- Construct a string from give array elements. refer ```TabulationCanConstruct.java```
+- How many ways we can construct a string from array of string ```TabulationHowConstruct.java```
 ## References
 - Coreman Book
 - Random YouTube Video https://www.youtube.com/watch?v=oBt53YbR9Kk
