@@ -32,8 +32,8 @@ public class PatternMatching {
   }
 
   public static void processCase2(Object obj){
-    if(obj instanceof Integer){
-      System.out.println("got integer value");
+    if(obj instanceof Integer intValue){
+      System.out.println("got integer value"+ intValue);
     } else if (obj instanceof  String str) {
       System.out.println("got string length of the stirng is "+str.length());
     }

@@ -20,7 +20,7 @@ public class GenericsBVSEx5 {
 	List<Banana5> bananas2 = new ArrayList<>();
 	copy(fruits1, fruits2);
 	copy1(bananas1, fruits1); //this is also not possible with copy method but with copy1 we can do it
-	//copy(fruits1, bananas1);// this is not possible 
+	//copy(fruits1, bananas1);// this is not possible
 	
     }
     
@@ -34,9 +34,9 @@ public class GenericsBVSEx5 {
    
    
    public static <T>void copy1(List<T> from,List<? super T> to) {
-       System.out.println("copy mehtod is called");
+       System.out.println("copy1 mehtod is called");
        for(var e : from) {
-	   to.add(e);
+	      to.add(e);
        }
    }
 }

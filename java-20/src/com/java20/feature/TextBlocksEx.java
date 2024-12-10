@@ -32,7 +32,7 @@ public class TextBlocksEx {
   public static String textWithTextBlocks(String course){
     String msg = """
         Hello and welcome to the world of
-        java,
+        course,
         how are u doing?
         """;
     return  msg;

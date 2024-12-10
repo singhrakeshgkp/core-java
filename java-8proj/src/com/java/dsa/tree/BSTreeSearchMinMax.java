@@ -1,6 +1,6 @@
 package com.java.dsa.tree;
 
-public class BSTreeSearchMinMax {
+public class BSTreeSearchMinMax {/*
 
     public static Node search(Node node, int key) {
 	if(node == null || node.key == key) {
@@ -57,5 +57,5 @@ public class BSTreeSearchMinMax {
 	Node predcessorNode = predecessor(tree.root, 25);
 	System.out.println("Predcessor of Node  is "+predcessorNode.key);
 	
-    }
+    }*/
 }

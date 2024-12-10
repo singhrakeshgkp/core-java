@@ -14,15 +14,15 @@ public class GenericsBVSEx4 {
 	Orange4 orange = new Orange4();
 	receiveFruit(banana);
 	receiveFruit(orange);
-	receiveBaskeOfFruits(new ArrayList<Fruit4>());
-	//receiveBaskeOfFruits(new ArrayList<Orange4>()); compile time error, Liskov provide protection here
+	receiveBasketOfFruits(new ArrayList<Fruit4>());
+	//receiveBasketOfFruits(new ArrayList<Orange4>()); //compile time error, Liskov provide protection here
     }
     
     public static void receiveFruit(Fruit4 fruit) {
 	System.out.println("Fruit Received "+fruit);
     }
     
-   public static void receiveBaskeOfFruits(List<Fruit4> fruits) {
+   public static void receiveBasketOfFruits(List<Fruit4> fruits) {
        System.out.println("received basket of fruits "+ fruits);
    }
 }

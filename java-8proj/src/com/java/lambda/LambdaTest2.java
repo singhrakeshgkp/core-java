@@ -17,7 +17,6 @@ public class LambdaTest2 {
 	 for(int i=0; i<numbers.size(); i++) {
 		 System.out.println(""+numbers.get(i));
 	 }
-	 
 	 System.out.println("External iterators end");
 	 numbers.stream().map(String::valueOf)// Parameter as an arguemnt to static method
 	 .forEach(System.out::println);// Parameter as an argument

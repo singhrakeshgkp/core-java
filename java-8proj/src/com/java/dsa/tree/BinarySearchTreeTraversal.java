@@ -1,6 +1,6 @@
 package com.java.dsa.tree;
 
-public class BinarySearchTreeTraversal {
+public class BinarySearchTreeTraversal {/*
 
     public static void main(String[] args) {
 	
@@ -41,5 +41,5 @@ public class BinarySearchTreeTraversal {
 	    System.out.print(node.key+" , ");
 	}
 	
-    }
+    }*/
 }

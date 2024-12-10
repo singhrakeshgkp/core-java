@@ -7,8 +7,8 @@ import java.util.List;
 public class GenericsBVSEx3 {
 
     /*Task Create a generic function that copy all the elements except the given one
-     *Solution- if(e.compareTo(exclude) !=0) This is not possible(without constraints), you can apply compareTo on any
-     *arbitrary type so here constraints need to be placed on generic type.
+     *Solution- if(e.compareTo(exclude) !=0) This is not possible(without constraints), you can not apply compareTo on any
+     *arbitary type so here constraints need to be placed on generic type.
      *without constraints on type parameter it will give compile time error
      *
      *After adding constraints it will run and produce the desired output
