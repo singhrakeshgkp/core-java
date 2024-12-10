@@ -6,7 +6,7 @@
  -  [Q & A](#q-&-a)
 
  # Dynamic Programming
- ## 1. Momoization
+ ## Momoization
  - Calculate 50th Number of fibonacci sequence. refer ```CalculatingFibonacci.java```. To optimize fib function performance we have cached value, that will avoid repeated calculation of prev number.
  - Ways to move on a grid from start to end ```GridTraveler.java```
  - Getting given sum number from the given list of numbers ```TargetedSum.java```
@@ -16,7 +16,7 @@
  - Write a function that accept a targetStr and an arrays of String and returns all the possible combination used to construct the targetStr. refer ```AllConstructTargetStr.java```
 
 
-## 2. Tabulation
+## Tabulation
 - Calculate 50th Fib Number using tabulation method refer ```FibTabulationEx.java```
 - Ways to Move on a grid from start to end refer ```TabulationGridTraveler.java```
 - Getting Given Sum from given numbers in array. refer ```TabulationTargetSum.java```
