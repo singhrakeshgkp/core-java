@@ -24,6 +24,8 @@
 - Get the min numbers that can be used to get the target sum. refer ```TabulationBestSum.java```
 - Construct a string from give array elements. refer ```TabulationCanConstruct.java```
 - How many ways we can construct a string from array of string ```TabulationHowConstruct.java```
+- Return how many ways we can create an string. refer  ```TabulationAllConstructs.java```
+  
 ## References
 - Coreman Book
 - Random YouTube Video https://www.youtube.com/watch?v=oBt53YbR9Kk
