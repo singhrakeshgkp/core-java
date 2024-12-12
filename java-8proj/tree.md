@@ -105,18 +105,18 @@ Complexity O(n) worst case if tree is unbalanced.
 
 ##  AVL Tree
 
-<p>**Complexity** O(log n)</p>
-<p> Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.</p>
+**Complexity** O(log n)
+ Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.
 
 
 
 
 ##  Red Black Tree
 
-<p> **Complexity** Insert, delete and search = O(log n)</p>
+ **Complexity** Insert, delete and search = O(log n)
 
-<p>AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
-If your application is involved more insertions and deletions then u can prefer red black tree</p>
+AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
+If your application is involved more insertions and deletions then u can prefer red black tree
 
 
 
