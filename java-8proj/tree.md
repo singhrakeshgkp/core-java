@@ -115,7 +115,25 @@ If y is a node in the right subtree of x, then y.key>= x.key
 ###  AVL Tree
 </summary>
 
+<p>Complexity O(n)</p>
 <p> Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.</p>
   
 </details>
+
+
+
+<details><summary>
+  
+###  Red Black Tree
+</summary>
+
+<p> Complexity Insert, delete and search = O(log n)</p>
+
+<p>AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
+If your application is involved more insertions and deletions then u can prefer red black tree</p>
+  
+</details>
+
+
+
 
