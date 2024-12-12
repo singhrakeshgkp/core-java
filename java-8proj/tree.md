@@ -1,8 +1,9 @@
-
-<details><summary>
+- [Tree](#tree)
+   - [Binary Search Tree](#binary-search-tree)
+   - [AVL Tree](#avl-tree)
+   - [Red Black Tree](#red-black-tree)
   
 ###  Binary Search Tree
-</summary>
   
 referred coreman book and https://www.youtube.com/watch?v=oSWTXtMglKE&t=238s
 #### Binary search tree property
@@ -103,37 +104,26 @@ If y is a node in the right subtree of x, then y.key>= x.key
   
   example. inorder traversal of given tree 2,3,4,6,7,9,13,15,17,18,20. predecessor of 4 is 3, successor of 15 is 17
   ```
-  
-</details>
 
 
 
 
-
-<details><summary>
   
 ###  AVL Tree
-</summary>
 
-<p>Complexity O(n)</p>
+<p>Complexity O(log n)</p>
 <p> Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.</p>
-  
-</details>
 
 
 
-<details><summary>
   
 ###  Red Black Tree
-</summary>
 
 <p> Complexity Insert, delete and search = O(log n)</p>
 
 <p>AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
 If your application is involved more insertions and deletions then u can prefer red black tree</p>
   
-</details>
-
 
 
 
