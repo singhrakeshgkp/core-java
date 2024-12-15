@@ -104,8 +104,9 @@ example. inorder traversal of given tree 2,3,4,6,7,9,13,15,17,18,20. predecessor
 Complexity O(n) worst case if tree is unbalanced.
 
 ##  AVL Tree
-
-**Complexity** O(log n)
+- **Rotation**
+-  <img src="rotation.png" width = "400"></img>
+- **Complexity** O(log n)
  Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.
 
 
