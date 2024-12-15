@@ -114,10 +114,17 @@ Complexity O(n) worst case if tree is unbalanced.
 
 ##  Red Black Tree
 
- **Complexity** Insert, delete and search = O(log n)
+- **Complexity** Insert, delete and search = O(log n)
 
-AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
+- AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
 If your application is involved more insertions and deletions then u can prefer red black tree
+- Red Black Tree Properties
+   - Each node is either red or black
+   - Root of the tree is always black
+   - Red node can not have red children
+   - Every path from a node to its descendant null nodes has the same number of black nodes.
+   - All leaves (null node) are black.
+
 
 
 
