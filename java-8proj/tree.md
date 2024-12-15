@@ -118,7 +118,7 @@ Complexity O(n) worst case if tree is unbalanced.
 
 - AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
 If your application is involved more insertions and deletions then u can prefer red black tree
-- Red Black Tree Properties
+- **Red Black Tree Properties**
    - Each node is either red or black
    - Root of the tree is always black
    - Red node can not have red children
