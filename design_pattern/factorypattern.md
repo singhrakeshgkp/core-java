@@ -27,6 +27,7 @@ specifying their concrete classes.
 
 - For java impl refer ```AbstractFactoryPatternExample.java``` class 
 - <b>Use Case</b>
-  - system should be independent o f how its products are created, composed,and represented.
-  - a system should be configured with one of multiple families of products.
+  - System should be independent o f how its products are created, composed,and represented.
+  - When your system requires multiple families of related products and you want to ensure compatibility between them.
+  - When you aim to maintain consistency across different product families, ensuring a uniform interface for the products.
   
