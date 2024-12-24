@@ -1,7 +1,7 @@
 # Factory Design Pattern
 
 ```
- Main -----> FactoryClass---->Profession--->(GovtOfficer,Doctor, Layer, Engineer)
+** Main -----> FactoryClass---->Profession--->(GovtOfficer,Doctor, Layer, Engineer)**
 ```
 <p>
 Define an interface for creating an object, but let subclass decide which class to instantiate. Factory method lets a class defer instantiation to subclasses. This technique also known as virtual constructor.
