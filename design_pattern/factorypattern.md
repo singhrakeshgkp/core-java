@@ -1,7 +1,7 @@
 # Factory Design Pattern
 
 ```
-Main -----> FactoryClass---->Profession--->(GovtOfficer,Doctor, Layer, Engineer) implements Profession
+Main -----> FactoryClass---->Profession--->(Doctor, Layer, Engineer) implements Profession
  
 ```
 <p>
