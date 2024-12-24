@@ -154,6 +154,7 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
 - Creating a closed hierarchy with sealed ```SealedInterfaceExample1.java```
 
 # Design Patterns
+- Is well tested solution to problems that we faced day to day software development.
 
 ## Creational
 
