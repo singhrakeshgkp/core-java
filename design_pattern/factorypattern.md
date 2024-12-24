@@ -19,7 +19,7 @@ Define an interface for creating an object, but let subclass decide which class 
 - Many classess such as Calendar.getInstance, NumberFormat, ResourceBoundle use factory method design
 - JaxBContext.createMarshaller, class.forName, charset.forname ..etc
 
-# Abstracto Factory Design Pattern
+# Abstract Factory Design Pattern
 <p>
   Provide an interface for creating families of related or dependent objects without
 specifying their concrete classes.
