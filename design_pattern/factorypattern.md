@@ -20,6 +20,10 @@ Define an interface for creating an object, but let subclass decide which class 
 - JaxBContext.createMarshaller, class.forName, charset.forname ..etc
 
 # Abstract Factory Design Pattern
+
+```
+Main-->AbstractShapeFactory-->ShapeFactoryBuilder( returns either of one ShapeFactory, BoldBorderShapeFactory)-->ShapeFactory/BoldBorderShapeFactory--> returns (Rectangle, Square/ RectangleWithBoldBorder, SquareWithBoldBorder)
+```
 <p>
   Provide an interface for creating families of related or dependent objects without
 specifying their concrete classes.
