@@ -29,7 +29,7 @@ Main-->AbstractShapeFactory-->ShapeFactoryBuilder( returns either of one ShapeFa
 specifying their concrete classes.
 </p>
 
-- For java impl refer ```AbstractFactoryPatternExample.java``` class 
+- For java impl refer ```MainClassAbstractFactory.java``` class 
 - <b>Use Case</b>
   - System should be independent o f how its products are created, composed,and represented.
   - When your system requires multiple families of related products and you want to ensure compatibility between them.
