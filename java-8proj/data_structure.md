@@ -9,7 +9,9 @@
    - [Stack](#stack)
       - [Operations on stack](#operations-on-stack)
    - [Queue](#queue)
+   - [Tree](#tree)
    - [references](#references)
+  
      
 
 # DS
