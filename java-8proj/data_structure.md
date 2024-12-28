@@ -55,10 +55,10 @@
 ## Queue
 # Searching 
 ### Binary Search
-For more details [click here](binarysearch.md)
+For more details [click here](dsa-search.md)
 # Sorting
  ### Merge Sort
- For more details [click here](mergesort.md)
+ For more details [click here](dsa-sort.md)
  ### Quick Sort
  ### Heap Sort
  For more details [click here](heapsort.md)
