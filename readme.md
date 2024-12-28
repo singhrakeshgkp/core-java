@@ -1,6 +1,7 @@
 
 
 - [Core Java](#core-java)
+   - [Design Patterns With Example](#Design-Patterns-With-Example)
    - [Java 8](#java-8)
       - [DSA](#DSA)
       - [Concurrency](#concurrency)
@@ -9,8 +10,7 @@
 
 
 # Core java
-## Design Patterns With Example,
-<hr/>
+## Design Patterns With Example
 - For more Details click [here](/design_pattern/design_patterns.md)
 
 
