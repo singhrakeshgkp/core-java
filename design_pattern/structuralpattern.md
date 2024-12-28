@@ -8,6 +8,8 @@
    - **Target Interface** -> Interface that client code understand and expect.
    - **Adaptee** -> Class or Interface you want to addapt on the target interface. Its existing Component with an InCompatiable interface
    - **Adapter**-> Implements the target interface and wraps an instance of Adaptee
-
+```
+client--> ITarget(+Operation())<--------- Adapter(Operation())------------->Adaptee(+specific Operation())
+```
 ### java library example
 - Enumeration, and Iterator
