@@ -2,4 +2,6 @@
 [Binary Search](#binary-search)
 
 ## Binary Search
-- Binary search follow devide and conquer approach.
+- Binary Seach is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half until the target value is found or the interval is empty.
+- **Complexity O(logn)**
+- 
