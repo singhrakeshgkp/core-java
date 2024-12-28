@@ -165,12 +165,12 @@ https://www.youtube.com/watch?v=yTuwi--LFsM&t=54s
 - 
 ## Structural
 
-- Adapter pattern
+- Adapter pattern  -->done
 - Bridge Pattern
 - Composite Patter
-- Decorator Pattern
+- Decorator Pattern -->done
 - Proxy Pattern
-- Façade pattern
+- Façade pattern  --> done
 - Flyweight Pattern
 
 
