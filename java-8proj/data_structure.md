@@ -9,6 +9,8 @@
    - [Stack](#stack)
       - [Operations on stack](#operations-on-stack)
    - [Queue](#queue)
+   - [Sorting](#sorting)
+   - [Searching](#searching)
    - [Tree](#tree)
    - [references](#references)
   
