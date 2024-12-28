@@ -1,4 +1,4 @@
-# Core java
+
 
 - [Core Java](#core-java)
    - [Java 8](#java-8)
@@ -8,8 +8,8 @@
    - [Java 21 to Java 25](#java-21-to-java-25)
 
 
-
-### Design Patterns With Example,
+# Core java
+## Design Patterns With Example,
 <hr/>
 - For more Details click [here](/design_pattern/design_patterns.md)
 
