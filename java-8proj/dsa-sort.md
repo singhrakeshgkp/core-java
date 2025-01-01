@@ -5,6 +5,8 @@
   
 # Sorting
 ## Heap Sort
+- **Min Heap** --> The elements are smaller than its children. Root is the min
+- **Max Heap**---> The elements are greater than its children.Root is the max.
 
 ## Quick Sort
 ## Merge Sort
