@@ -7,7 +7,7 @@
 ## Heap Sort
 
 - refer ```MinHeap.java```
-- reference  Coreman book and https://www.youtube.com/watch?v=t0Cq6tVNRBA
+- reference  Coreman book part 3, page 151 and https://www.youtube.com/watch?v=t0Cq6tVNRBA
 - **Min Heap** --> The elements are smaller than its children. Root is the min
 - **Max Heap**---> The elements are greater than its children.Root is the max.
 - **Operation on Heap**
