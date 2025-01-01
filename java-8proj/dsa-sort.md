@@ -1,9 +1,18 @@
-### Merge Sort
+- [Sorting](#sorting)
+   - [Heap Sort](#heap-sort)
+   - [Quick Sort](#quick-sort)
+   - [Merge Sort](#merge-sort)
+  
+# Sorting
+## Heap Sort
 
+## Quick Sort
+## Merge Sort
+- refer coreman 
 - Follow divide and conquer approach
 - worst case running time is ``` nlogn ```
 - best case running time is 
-- 
+  
 ```
 MergeSort(A,p,r)
 1. if(P<r)
