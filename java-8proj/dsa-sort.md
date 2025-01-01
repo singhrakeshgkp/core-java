@@ -12,6 +12,7 @@
 - **Max Heap**---> The elements are greater than its children.Root is the max.
 - **Operation on Heap**
    - **Insert** --> We fill the elements from left to right, if elements are not in its correct position we will bubble that up until we get to the right spot. Take the inserted element and compare it with its parent, if its not in correct order swap them.
+   - **Remove Min Element** ---> If its min heap the root is going to be min element.Remove the min, swap the element with last added, here spot may not be correct so bubble it down to next spot untill u get correct spot.
 ## Quick Sort
 ## Merge Sort
 - refer coreman 
