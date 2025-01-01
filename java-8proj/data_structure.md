@@ -54,11 +54,13 @@
 
 ## Queue
 # Searching 
+- For more details [click here](dsa-search.md)
 ### Binary Search
-For more details [click here](dsa-search.md)
+### Linear Search
+
 # Sorting
+- For more details [click here](dsa-sort.md)
  ### Merge Sort
- For more details [click here](dsa-sort.md)
  ### Quick Sort
  ### Heap Sort
  For more details [click here](heapsort.md)
