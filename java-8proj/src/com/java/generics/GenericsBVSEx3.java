@@ -29,7 +29,7 @@ public class GenericsBVSEx3 {
 
 		for (var e : from) {
 			if (e.compareTo(exclude) != 0) {
-				to.add(e);
+				to.add(e); 			
 			}
 		}
 	}

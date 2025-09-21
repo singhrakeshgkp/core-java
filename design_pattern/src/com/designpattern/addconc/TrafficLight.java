@@ -2,5 +2,5 @@ package com.designpattern.addconc;
 
 public sealed interface  TrafficLight {}
 
-class RedLight implements TrafficLight{}
-class GreenLight implements TrafficLight{}
+final class RedLight implements TrafficLight{}
+final class GreenLight implements TrafficLight{}

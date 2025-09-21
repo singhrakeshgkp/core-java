@@ -23,27 +23,27 @@ public class OpenCloseExample5 {
      * 
      * */
     public static void main(String[] args) {
-	Car4 carObj1 = new Car4(2015, new TurboEngine4());
+	Car5 carObj1 = new Car5(2015, new TurboEngine5());
 	System.out.println(carObj1);
 	
-    	Car4 carObj2 = new Car4(carObj1);
+    	Car5 carObj2 = new Car5(carObj1);
        System.out.println(carObj2);
     }
 }
 
 
-class Car4{
+class Car5{
     
     private int year;
-    private Engine4 engine;
+    private Engine5 engine;
    
-    public Car4(int year, Engine4 engine) {
+    public Car5(int year, Engine5 engine) {
 	super();
 	this.year = year;
 	this.engine = engine;
     }
     
-    public Car4(Car4 car) {
+    public Car5(Car5 car) {
 	
 	
 	this.year = car.year;
@@ -58,14 +58,14 @@ class Car4{
 }
 
 
-class Engine4{
-    public Engine4() {};
+class Engine5{
+    public Engine5() {};
 
-protected Engine4(Engine4 engine) {};
+protected Engine5(Engine5 engine) {};
 
-public Engine4 copy() {
+public Engine5 copy() {
     //Reflection can be used to avoid Dry principle issue
-    return new Engine4(this);
+    return new Engine5(this);
 }
     
     
@@ -74,14 +74,14 @@ public Engine4 copy() {
     }
 }
 
-class TurboEngine4 extends Engine4{
-    public TurboEngine4() {super();};
-    public TurboEngine4(TurboEngine4 engine) {
+class TurboEngine5 extends Engine5{
+    public TurboEngine5() {super();};
+    public TurboEngine5(TurboEngine5 engine) {
 	super(engine);
     }
     
-    public Engine4 copy() {
-	    return new TurboEngine4(this);
+    public Engine5 copy() {
+	    return new TurboEngine5(this);
 	}
 	  
 }

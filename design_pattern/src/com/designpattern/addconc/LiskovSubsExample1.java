@@ -22,7 +22,7 @@ class Book1{
 class TechBook1 extends Book1{
     
     //private is not possible here, as mentioned you can not be more restrictive in derived class
-    private String getBookName() {
+    public  String getBookName() {
 	return "TechBook";
     }
 }

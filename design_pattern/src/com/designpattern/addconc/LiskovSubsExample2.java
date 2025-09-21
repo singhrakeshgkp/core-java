@@ -27,7 +27,7 @@ class Book2{
 
 class TechBook2 extends Book2{
     
-    public void readBook(String bookPath) throws IOException{
+    public void readBook(String bookPath) {
 	
     }
 }

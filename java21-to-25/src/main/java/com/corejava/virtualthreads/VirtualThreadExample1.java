@@ -16,7 +16,7 @@ public class VirtualThreadExample1 {
     //approach 3
 
     /* If observe the output of the below program u will see multiple virtual thread is getting mounted
-    on same worker/platfor/carrier thread*/
+    on same worker/platform/carrier thread*/
     try(var executor = Executors.newVirtualThreadPerTaskExecutor()) {
       executor.submit(()-> System.out.println(Thread.currentThread()));
       executor.submit(()-> System.out.println(Thread.currentThread()));

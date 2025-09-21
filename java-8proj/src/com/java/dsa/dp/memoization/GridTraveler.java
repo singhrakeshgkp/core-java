@@ -26,6 +26,8 @@ public class GridTraveler {
   }
   public static void main(String[] args) {
     //System.out.println(travel(9,9));  // inefficient
-    System.out.println(travel(18,18,new HashMap<>()));
+   System.out.println("Number of ways: " + travel(3, 3, new HashMap<>()));
+   System.out.println("Number of ways: " + travel(5, 4, new HashMap<>()));
+   System.out.println("Number of ways: " + travel(4, 5, new HashMap<>()));
   }
 }
