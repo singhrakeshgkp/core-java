@@ -1,4 +1,5 @@
- - [DS](#DS)
+
+# Table of contents
    - [Array And String](#array-and-string)
       - [Operations on array](#operations-on-array)
       - [Types of array](#types-of-array)
@@ -9,7 +10,11 @@
    - [Stack](#stack)
       - [Operations on stack](#operations-on-stack)
    - [Queue](#queue)
+   - [Sorting](#sorting)
+   - [Searching](#searching)
+   - [Tree](#tree)
    - [references](#references)
+  
      
 
 # DS
@@ -49,11 +54,13 @@
 
 ## Queue
 # Searching 
+- For more details [click here](dsa-search.md)
 ### Binary Search
-For more details [click here](binarysearch.md)
+### Linear Search
+
 # Sorting
+- For more details [click here](dsa-sort.md)
  ### Merge Sort
- For more details [click here](mergesort.md)
  ### Quick Sort
  ### Heap Sort
  For more details [click here](heapsort.md)

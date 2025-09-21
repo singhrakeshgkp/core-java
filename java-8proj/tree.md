@@ -104,8 +104,9 @@ example. inorder traversal of given tree 2,3,4,6,7,9,13,15,17,18,20. predecessor
 Complexity O(n) worst case if tree is unbalanced.
 
 ##  AVL Tree
-
-**Complexity** O(log n)
+- **Rotation**  just for understanding how i have implemented we can consider (bita(B) = T)
+-  <img src="rotation.png" width = "400"></img>
+- **Complexity** O(log n)
  Limitation with binary search tree is that,it could be unbalanced depending on the insertion sequence.
 
 
@@ -113,10 +114,17 @@ Complexity O(n) worst case if tree is unbalanced.
 
 ##  Red Black Tree
 
- **Complexity** Insert, delete and search = O(log n)
+- **Complexity** Insert, delete and search = O(log n)
 
-AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
+- AVL tree is more balanced if we compare it with red black tree. But they may cause more rotations during insertions and deletions.
 If your application is involved more insertions and deletions then u can prefer red black tree
+- **Red Black Tree Properties**
+   - Each node is either red or black
+   - Root of the tree is always black
+   - Red node can not have red children
+   - Every path from a node to its descendant null nodes has the same number of black nodes.
+   - All leaves (null node) are black.
+
 
 
 
