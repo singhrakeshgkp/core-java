@@ -1,7 +1,7 @@
 
 
 - [Core Java](#core-java)
-   - [IDE and Linux](IDE-and-Linux)
+   - [IDE and Linux](#IDE-and-Linux)
    - [Design Patterns With Example](#Design-Patterns-With-Example)
    - [Java 8](#java-8)
       - [DSA](#DSA)
