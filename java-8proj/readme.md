@@ -8,6 +8,7 @@
 - [Method Reference](/java-8proj/method_reference.md)
 - [Parallel and Asynchronous programming with Stream and Completable future](/java-8proj/parallel-programming.md)
 - [Generics](/java-8proj/generics.md)
+- [Optional](#optional)
 # Java Date time
 # Exception Handling
 
@@ -27,4 +28,6 @@
   - with sealed classes
   - what if classes change?
 - Guarded Pattern
+
+## Optional
 
