@@ -29,5 +29,14 @@
   - what if classes change?
 - Guarded Pattern
 
-## Optional
+# Optional
+- Its a container, that may or may not contain non-null value
+- Its primarily used to avoid nullpointer exception and makes code more readable and intentional when dealing with potentially missing values.
+## Use optional (see OptionalEx.java)
+- As a method return type (main use case)
+- When u need functional style chaining
+- When Returning Optional From Repository or Utility Layer
+- For Value Retrieval That Is Contextually Optional
+## Avoid to use optional
+
 
