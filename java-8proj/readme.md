@@ -38,5 +38,7 @@
 - When Returning Optional From Repository or Utility Layer
 - For Value Retrieval That Is Contextually Optional
 ## Avoid to use optional
-
+- Never use optional as a member variables in entities, DTO, Models as jpa, jackson and other framework don't handle optional field. its not serializable and adds unnecessary complexity
+- For performance critical code -> optional adds a small overhead(extra object wrapping and unwrapping), in tight loop, high frequency call or low level library avoid to use it.
+- When value is always expected avoid to use it. ex.  Optional.of("Rakesh").
 
