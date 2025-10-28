@@ -11,10 +11,11 @@ Whats functional programming is?
   immutable state
   functions as first class citizen
   We can perform following things in functional programming
-        Imperative                               functional(higher order function)
-	can pass obj to function		 can pass function to function
-	can create obj within function		 can create function within function
-	can return obj from function		 can return function from function
+        **Imperative  **                    ** functional(higher order function)**
+	can pass obj to function		 		can pass function to function
+	can create obj within function		 	can create function within function
+	can return obj from function		 	can return function from function
+
  Function with no side effects(have to be pure)
    1. pure function does not change anything
    2. Pure function does not depend anything that change
