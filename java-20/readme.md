@@ -30,7 +30,7 @@
 
 ### Sealed Classes and Interface
 - If we want to restrict interface not to be implemented by any of the classess except permitted classes
-- If class implementing sealed interface is in same file then these calsses will be permitted by default. if now need to specify permit keyword.
+- If class implementing sealed interface is in same file then these calsses will be permitted by default. if not then need to specify permit keyword.
 - Implementing class should be in the same package/module
 - ```SealedInterfaceEx.java```, ```SealedClassEx.java```
 
