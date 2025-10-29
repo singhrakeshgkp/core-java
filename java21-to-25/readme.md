@@ -16,7 +16,7 @@
 ##### Platform threads
 - Platform threads is thin wrapper over OS thread, VM needs to create a platform thread, it requests OS to create a new OS thread. Once OS thread gets created JVM create a platform thread.
 - Platform threads and OS threads has 1 to 1 mapping
-- Creating platform threads is and expensive operation/intensive tak so we put them in pool
+- Creating platform threads is and expensive operation/intensive task so we put them in pool
 
 ##### Virtual Threads
 - Lightweight user thread(as it requires very less memory)
