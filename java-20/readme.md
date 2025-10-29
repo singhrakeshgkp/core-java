@@ -36,5 +36,5 @@
 
 ### Pattern Matching
 - Pattern matching with instance of operator
-- Pattern matchin with switch
+- Pattern matching with switch
 - ```PatternMatching.java```
