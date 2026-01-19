@@ -2,13 +2,23 @@
 
 ## Creating Generics Method and classess
 ## Upper Bound and Lower Bound
-- PECS-->Producer--->extends(read allowed), CS--->Consumer--->Super(Write Operation)
+- PECS
+  - **Upper Bound (PE)** -->  Producer--->extends(read allowed)
+  - **Lower Bound(CS)** -->  CS--->Consumer--->Super(Write Operation)
 
 ### Upper bound
 - **Syntax** -> testMethod(List<? extends Number).(define lowest class in hierarchy). Can Read items only however can not add item in list because the compiler can not guarantee which specific type it is(e.g u can not add integer in a list <? extends Number> because it might be actually List<Double> or any other type)
 
 ### Lower bound
 - **Syntax** -> testMethod(List<? super Integer)(define lowest class in hierarchy). Used to perform write operation.
+- **Why read is not allowed in lower bound ?**
+- Restriction exist to maintain type saftey when you define ``` List<? super Integer> ```, the list could actually be
+  - List<Integer>
+  - List<Number>
+  - List<Object>
+- if list is actually ```List<Object>``` it might contains boolean or string. If the compiler allowed you to read element and automatically cast it to an integer, it could cause ClassCastException.
+- if your type is ``` List<? super T> ``` you can safely add type T and any its subclasses.
+- Exammple --> ```List<? super Integer>``` Can add Integer, can not add Number or Object (SuperTypes) even though list might be List<Object> or List<Number> compiler does not know for sure, if it were List<Integer> adding Number in it would break type safety.
 
 ### Examples
 - GenericMethodExample1- Generic Method syntax <T> List<T> convertArryToList(T[] array)(<T> - generic type, List<T> -> Return type)
