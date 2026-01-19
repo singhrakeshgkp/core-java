@@ -1,8 +1,16 @@
 # Generics
 
-### Creating Generics Method and classess
-### Upper Bound and Lower Bound
+## Creating Generics Method and classess
+## Upper Bound and Lower Bound
 - PECS-->Producer--->extends(read allowed), CS--->Consumer--->Super(Write Operation)
+
+### Upper bound
+- **Syntax** -> testMethod(List<? extends Number).(define lowest class in hierarchy). Can Read items only however can not add item in list because the compiler can not guarantee which specific type it is(e.g u can not add integer in a list <? extends Number> because it might be actually List<Double> or any other type)
+
+### Lower bound
+- **Syntax** -> testMethod(List<? super Integer)(define lowest class in hierarchy). Used to perform write operation.
+
+### Examples
 - GenericMethodExample1- Generic Method syntax <T> List<T> convertArryToList(T[] array)(<T> - generic type, List<T> -> Return type)
 - GenericMethodExample12- 
   - GenericMethodExample12.1 -> UpperBound :- A method accepts a type and all its subclasses (example <? extends Number>).
