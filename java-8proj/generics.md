@@ -13,9 +13,9 @@
 - **Syntax** -> testMethod(List<? super Integer)(define lowest class in hierarchy). Used to perform write operation.
 - **Why read is not allowed in lower bound ?**
 - Restriction exist to maintain type saftey when you define ``` List<? super Integer> ```, the list could actually be
-  - List<Integer>
-  - List<Number>
-  - List<Object>
+  - ```List<Integer>```
+  - ```List<Number>```
+  - ```List<Object>```
 - if list is actually ```List<Object>``` it might contains boolean or string. If the compiler allowed you to read element and automatically cast it to an integer, it could cause ClassCastException.
 - if your type is ``` List<? super T> ``` you can safely add type T and any its subclasses.
 - Exammple --> ```List<? super Integer>``` Can add Integer, can not add Number or Object (SuperTypes) even though list might be List<Object> or List<Number> compiler does not know for sure, if it were List<Integer> adding Number in it would break type safety.
