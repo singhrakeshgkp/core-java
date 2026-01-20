@@ -18,10 +18,10 @@
   - ```List<Object>```
 - if list is actually ```List<Object>``` it might contains boolean or string. If the compiler allowed you to read element and automatically cast it to an integer, it could cause ClassCastException.
 - if your type is ``` List<? super T> ``` you can safely add type T and any its subclasses.
-- Exammple --> ```List<? super Integer>``` Can add Integer, can not add Number or Object (SuperTypes) even though list might be List<Object> or List<Number> compiler does not know for sure, if it were List<Integer> adding Number in it would break type safety.
+- Exammple --> ```List<? super Integer>``` Can add Integer, can not add Number or Object (SuperTypes) even though list might be ```List<Object> or List<Number>``` compiler does not know for sure, if it were ```List<Integer>``` adding Number in it would break type safety.
 
 ### Examples
-- GenericMethodExample1- Generic Method syntax <T> List<T> convertArryToList(T[] array)(<T> - generic type, List<T> -> Return type)
+- GenericMethodExample1- Generic Method syntax ```<T> List<T> convertArryToList(T[] array) (<T> - generic type, List<T> -> Return type)```
 - GenericMethodExample12- 
   - GenericMethodExample12.1 -> UpperBound :- A method accepts a type and all its subclasses (example <? extends Number>).
   - GenericMethodExample12.2 -> Lower Bound:- A method accepts a type and all its superclasses. ```public static void validateTillStringType(Collection<? super String> collection) ```
