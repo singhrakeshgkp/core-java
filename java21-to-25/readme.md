@@ -44,3 +44,4 @@
 - A Generator allows us to write a function that 'yields' values, these values are lazily retrieved. They can be iterated over a loop.
 
 ## Java 25 LTS
+- Compact source file and instance main method
