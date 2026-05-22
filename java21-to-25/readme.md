@@ -8,6 +8,7 @@
    - [Continuation in java](#Continuation-in-java)
      - [Uses of continuation](#uses-of-continuation)
      - [Generator](#generator)
+- [Java 25 LTS](#java-25-lts)   
 
 
 ### References
@@ -42,3 +43,4 @@
 ##### Generator
 - A Generator allows us to write a function that 'yields' values, these values are lazily retrieved. They can be iterated over a loop.
 
+## Java 25 LTS
