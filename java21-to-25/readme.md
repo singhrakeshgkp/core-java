@@ -45,3 +45,7 @@
 
 ## Java 25 LTS
 - Compact source files and instance main methods
+- Pattern matching with primitive type ```PatternMatchingEx.java```
+- Compact Source Files and Instance Main Methods ```Greet.java```
+- Module Import Declaration ```ModuleImport.java```
+- Flexible constructor body ```FlexibleConstructorEx.java```
