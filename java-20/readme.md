@@ -13,8 +13,9 @@
 - In java 8 Strings and Enums were introduced in case values. From here switch statement started to evolve
 - Switch Expression
    - Automated break :- we do not specify break statement because here we are dealing with expression not statement. In previous version if we forget to specify break statement, the code flows in the next case and we get the wrong result.
-   - Multicase
+   - Multicase/Multilabel
    - Multiline
+   - Completness check--> default should be present otherwise it will give compiler error. With switch statement we can ignore default case but not with switch expression(we can ignore only if all case is covered such as passing some enum).
 - ```SwitchExpression.java``` 
 
 ### Text Blocks
@@ -30,11 +31,11 @@
 
 ### Sealed Classes and Interface
 - If we want to restrict interface not to be implemented by any of the classess except permitted classes
-- If class implementing sealed interface is in same file then these calsses will be permitted by default. if now need to specify permit keyword.
+- If class implementing sealed interface is in same file then these calsses will be permitted by default. if not then need to specify permit keyword.
 - Implementing class should be in the same package/module
 - ```SealedInterfaceEx.java```, ```SealedClassEx.java```
 
 ### Pattern Matching
 - Pattern matching with instance of operator
-- Pattern matchin with switch
+- Pattern matching with switch
 - ```PatternMatching.java```

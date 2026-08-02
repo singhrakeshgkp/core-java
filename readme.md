@@ -1,6 +1,8 @@
 
 
 - [Core Java](#core-java)
+   - [IDE and Linux](#IDE-and-Linux)
+   - [Memory Management](#Memory-management)
    - [Design Patterns With Example](#Design-Patterns-With-Example)
    - [Java 8](#java-8)
       - [DSA](#DSA)
@@ -10,10 +12,12 @@
 
 
 # Core java
+# Memory Management
+- for more details click [here](/memory-mgmt/memory.md)
 ## Design Patterns With Example
 - For more Details click [here](/design_pattern/design_patterns.md)
 
-
+## [IDE and Linux Command](/IDEAndLinuxCommand.md)
 ## Java 8
 ### DSA
 - For More details click [here](/java-8proj/data_structure.md)

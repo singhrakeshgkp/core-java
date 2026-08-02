@@ -8,6 +8,7 @@
    - [Continuation in java](#Continuation-in-java)
      - [Uses of continuation](#uses-of-continuation)
      - [Generator](#generator)
+- [Java 25 LTS](#java-25-lts)   
 
 
 ### References
@@ -16,7 +17,7 @@
 ##### Platform threads
 - Platform threads is thin wrapper over OS thread, VM needs to create a platform thread, it requests OS to create a new OS thread. Once OS thread gets created JVM create a platform thread.
 - Platform threads and OS threads has 1 to 1 mapping
-- Creating platform threads is and expensive operation/intensive tak so we put them in pool
+- Creating platform threads is and expensive operation/intensive task so we put them in pool
 
 ##### Virtual Threads
 - Lightweight user thread(as it requires very less memory)
@@ -42,3 +43,9 @@
 ##### Generator
 - A Generator allows us to write a function that 'yields' values, these values are lazily retrieved. They can be iterated over a loop.
 
+## Java 25 LTS
+- Compact source files and instance main methods
+- Pattern matching with primitive type ```PatternMatchingEx.java```
+- Compact Source Files and Instance Main Methods ```Greet.java```
+- Module Import Declaration ```ModuleImport.java```
+- Flexible constructor body ```FlexibleConstructorEx.java```
