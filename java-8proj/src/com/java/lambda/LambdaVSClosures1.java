@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 public class LambdaVSClosures1 {
 
   /*Task 1 - Double the number and print it
-   * output - 4+6+8=18
+   * output - 4,6,8
    *Task 2- same task1- with non final variable
    * output - compilation error
    *
@@ -49,8 +49,8 @@ public class LambdaVSClosures1 {
   }
 
   public static void main(String[] args) {
-    //fun1();
+    fun1();
     //fun2();
-    fun3();
+   // fun3();
   }
 }

@@ -10,24 +10,24 @@ public class VirtualThreadExample1 {
 
     /*Creating virtual thread
     approach 1*/
-    Thread.ofVirtual().start(()-> System.out.println(Thread.currentThread()));
+    Thread.ofVirtual().start(() -> System.out.println(Thread.currentThread()));
     //approach 2
-    Thread.startVirtualThread(()-> System.out.println(Thread.currentThread()));
+    Thread.startVirtualThread(() -> System.out.println(Thread.currentThread()));
     //approach 3
 
     /* If observe the output of the below program u will see multiple virtual thread is getting mounted
     on same worker/platform/carrier thread*/
-    try(var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
-      executor.submit(()-> System.out.println(Thread.currentThread()));
+    try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
+      executor.submit(() -> System.out.println(Thread.currentThread()));
     }
     //Creating platform thread
-    Thread.ofPlatform().start(()-> System.out.println(Thread.currentThread()));
+    Thread.ofPlatform().start(() -> System.out.println(Thread.currentThread()));
   }
 }

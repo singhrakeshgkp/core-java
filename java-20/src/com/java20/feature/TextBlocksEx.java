@@ -8,7 +8,7 @@ public class TextBlocksEx {
     /*System.out.println(txtBeforeTxtBlock("java"));*/
 
     /*case 2 textWithTxtBlocks*/
-   /* System.out.println(textWithTextBlocks("java"));*/
+    System.out.println(textWithTextBlocks("java"));
 
     /*case 3 escape not required if double quotes used*/
     /*System.out.println(textWithTextBlocksAndEscape("java"));*/
@@ -19,7 +19,7 @@ public class TextBlocksEx {
    /* System.out.println(autoRemoveSpaces("java").replace(" ","-"));*/
 
     /*case 5 preserve spaces- to preserve spaces use '\s' char*/
-    System.out.println(preserveSpaces("java").replace(" ","-"));
+  //  System.out.println(preserveSpaces("java").replace(" ","-"));
   }
 
   public static String txtBeforeTxtBlock(String course){

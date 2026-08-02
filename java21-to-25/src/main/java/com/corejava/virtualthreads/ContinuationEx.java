@@ -4,7 +4,7 @@ import jdk.internal.vm.Continuation;
 import jdk.internal.vm.ContinuationScope;
 
 public class ContinuationEx {
-
+private static final int test =0;
   public static void main(String[] args) {
     var cont = getContinuationInstance();
     cont.run();

@@ -1,10 +1,27 @@
 package com.corejava;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.concurrent.Executors;
+
 public class Main {
 
-  public static void main(String[] args) {
-   
+  public static void main(String[] args) throws InterruptedException {
+    try(var executor = Executors.newVirtualThreadPerTaskExecutor()){
+      executor.submit(()-> System.out.println(Thread.currentThread()));
+      executor.submit(()-> System.out.println(Thread.currentThread()));
+      executor.submit(()-> System.out.println(Thread.currentThread()));
+      executor.submit(()-> System.out.println(Thread.currentThread()));
+      executor.submit(()-> System.out.println(Thread.currentThread()));
     }
+
+    Thread.ofPlatform().start(()-> System.out.println(Thread.currentThread()));
+    Thread.ofPlatform().start(()-> System.out.println(Thread.currentThread()));
   }
+}
+
+class Employee {
+
+}
+
+class Student {
+
+}
