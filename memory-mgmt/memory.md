@@ -8,12 +8,5 @@
 
 
 ## Understanding how a sample java program Executed
-[Program 1](/)
-```
- class Test{
-     main(){
-            fun1();
-        }
-    fun1()
- }
-```
+[Program execution](/memory-mgmt/program-execution.md)
+
